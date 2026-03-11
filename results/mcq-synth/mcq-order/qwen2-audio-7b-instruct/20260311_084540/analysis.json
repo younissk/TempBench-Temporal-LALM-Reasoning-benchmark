@@ -1,0 +1,95 @@
+{
+  "examples": 1000,
+  "correct": 359,
+  "accuracy": 0.359,
+  "labels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "answer_distribution": [
+    {
+      "label": "A",
+      "count": 333,
+      "rate": 0.333
+    },
+    {
+      "label": "B",
+      "count": 319,
+      "rate": 0.319
+    },
+    {
+      "label": "C",
+      "count": 348,
+      "rate": 0.348
+    }
+  ],
+  "prediction_distribution": [
+    {
+      "label": "A",
+      "count": 0,
+      "rate": 0.0
+    },
+    {
+      "label": "B",
+      "count": 106,
+      "rate": 0.106
+    },
+    {
+      "label": "C",
+      "count": 894,
+      "rate": 0.894
+    }
+  ],
+  "by_answer_label": [
+    {
+      "label": "A",
+      "support": 333,
+      "correct": 0,
+      "accuracy": 0.0,
+      "predicted_count": 0,
+      "prediction_rate": 0.0
+    },
+    {
+      "label": "B",
+      "support": 319,
+      "correct": 39,
+      "accuracy": 0.12225705329153605,
+      "predicted_count": 106,
+      "prediction_rate": 0.106
+    },
+    {
+      "label": "C",
+      "support": 348,
+      "correct": 320,
+      "accuracy": 0.9195402298850575,
+      "predicted_count": 894,
+      "prediction_rate": 0.894
+    }
+  ],
+  "by_n_options": [
+    {
+      "n_options": 3,
+      "examples": 1000,
+      "correct": 359,
+      "accuracy": 0.359
+    }
+  ],
+  "by_answer_type": [
+    {
+      "answer_type": "event",
+      "examples": 1000,
+      "correct": 359,
+      "accuracy": 0.359
+    }
+  ],
+  "parse_status": [
+    {
+      "parse_status": "exact-label",
+      "count": 1000,
+      "rate": 1.0
+    }
+  ],
+  "answer_entropy": 1.5840523280810057,
+  "prediction_entropy": 0.48773158354050183
+}
