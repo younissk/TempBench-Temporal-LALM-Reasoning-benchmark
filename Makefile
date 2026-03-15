@@ -10,6 +10,7 @@
 	build-mcq-synth-pitch \
 	build-mcq-synth-loudness \
 	build-mcq-synth-rhythm \
+	build-mcq-synth-pitch-order-trivial \
 	build-mcq-synth-all \
 	review-mcq-dataset \
 	build-mcq-relation-dataset \
@@ -50,6 +51,7 @@ MCQ_SYNTH_TIME_DATASET ?= $(DATA_DIR)/mcq_synth_time_easy.jsonl
 MCQ_SYNTH_PITCH_DATASET ?= $(DATA_DIR)/mcq_synth_pitch_easy.jsonl
 MCQ_SYNTH_LOUDNESS_DATASET ?= $(DATA_DIR)/mcq_synth_loudness_easy.jsonl
 MCQ_SYNTH_RHYTHM_DATASET ?= $(DATA_DIR)/mcq_synth_rhythm_easy.jsonl
+MCQ_SYNTH_PITCH_ORDER_TRIVIAL_DATASET ?= $(DATA_DIR)/mcq_synth_pitch_order_trivial_easy.jsonl
 AUDIO_ROOT ?= $(DATA_DIR)/audio
 AUDIO_ZIP ?= $(DATA_DIR)/audio.zip
 MCQ_REVIEW_LABELS ?= $(RESULTS_DIR)/mcq-order/review/manual_good_bad_labels.jsonl
@@ -231,6 +233,16 @@ build-mcq-synth-rhythm:
 	uv run python src/utils/build_synthetic_mcq_dataset.py \
 		--benchmark rhythm \
 		--difficulty $(SYNTH_DIFFICULTY) \
+		--scenes-per-split $(SYNTH_SCENES) \
+		--seed $(SYNTH_SEED) \
+		--audio-root $(AUDIO_ROOT) \
+		--dataset-root $(DATA_DIR) \
+		--generator-version $(SYNTH_GENERATOR_VERSION)
+
+build-mcq-synth-pitch-order-trivial:
+	uv run python src/utils/build_synthetic_mcq_dataset.py \
+		--benchmark pitch_order_trivial \
+		--difficulty easy \
 		--scenes-per-split $(SYNTH_SCENES) \
 		--seed $(SYNTH_SEED) \
 		--audio-root $(AUDIO_ROOT) \

@@ -23,6 +23,7 @@ def test_normalize_aliases() -> None:
     assert _normalize_task("mcq-synth-pitch") == "mcq-synth-pitch"
     assert _normalize_task("mcq-synth-loudness") == "mcq-synth-loudness"
     assert _normalize_task("mcq-synth-rhythm") == "mcq-synth-rhythm"
+    assert _normalize_task("mcq-synth-pitch-order-trivial") == "mcq-synth-pitch-order-trivial"
     assert _normalize_model("qwen") == "llm-qwen"
     assert _normalize_model("af3") == "audioflamingo"
 
@@ -159,3 +160,19 @@ def test_synthetic_task_defaults() -> None:
     assert TASKS["mcq-synth-pitch"].dataset_default == Path("data/mcq_synth_pitch_easy.jsonl")
     assert TASKS["mcq-synth-loudness"].dataset_default == Path("data/mcq_synth_loudness_easy.jsonl")
     assert TASKS["mcq-synth-rhythm"].dataset_default == Path("data/mcq_synth_rhythm_easy.jsonl")
+    assert TASKS["mcq-synth-pitch-order-trivial"].dataset_default == Path(
+        "data/mcq_synth_pitch_order_trivial_easy.jsonl"
+    )
+    assert TASKS["mcq-synth-pitch-order-trivial"].build_target == "build-mcq-synth-pitch-order-trivial"
+
+
+def test_setup_targets_for_pitch_order_trivial_default_dataset() -> None:
+    targets = _build_setup_targets(
+        model=MODELS["qwen2-audio"],
+        task=TASKS["mcq-synth-pitch-order-trivial"],
+        prepare_data=True,
+        install_deps=False,
+        use_audio=True,
+        dataset_is_default=True,
+    )
+    assert targets == ["build-mcq-synth-pitch-order-trivial"]

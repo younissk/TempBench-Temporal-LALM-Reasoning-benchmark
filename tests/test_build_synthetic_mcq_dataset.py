@@ -61,6 +61,64 @@ def test_build_synthetic_datasets_write_rows_and_audio(tmp_path: Path) -> None:
     assert {row["source_task_id"] for row in aggregate_rows} == set(families.values())
 
 
+def test_build_pitch_order_trivial_writes_expected_rows_and_audio(tmp_path: Path) -> None:
+    main(
+        benchmark="pitch_order_trivial",
+        difficulty="easy",
+        scenes_per_split=500,
+        seed=7,
+        sample_rate=16000,
+        audio_root=tmp_path / "audio",
+        dataset_root=tmp_path / "data",
+        generator_version="synth-v1",
+    )
+
+    dataset_path = tmp_path / "data" / "mcq_synth_pitch_order_trivial_easy.jsonl"
+    rows = _load_rows(dataset_path)
+    assert len(rows) == 500
+    assert {row["task_id"] for row in rows} == {"MCQ-SYNTH-PITCH-ORDER-TRIVIAL"}
+    assert {row["benchmark_family"] for row in rows} == {"pitch_order_trivial"}
+    assert {row["difficulty"] for row in rows} == {"easy"}
+    assert {row["question"] for row in rows} == {
+        "You will hear a high beep and a low beep. Which one happened first?"
+    }
+    assert {row["question_template"] for row in rows} == {"high_vs_low_first"}
+
+    high_first = 0
+    low_first = 0
+    for row in rows:
+        assert len(row["options"]) == 2
+        labels = [option["label"] for option in row["options"]]
+        assert len(labels) == len(set(labels))
+        assert row["answer_label"] in labels
+        assert {option["text"] for option in row["options"]} == {"the high beep", "the low beep"}
+
+        events = row["scene"]["events"]
+        assert len(events) == 2
+        assert {event["identity"] for event in events} == {"high", "low"}
+        assert {event["waveform"] for event in events} == {"sine"}
+        assert {event["duration"] for event in events} == {0.15}
+        assert {event["dbfs"] for event in events} == {-18.0}
+        assert {event["pitch_hz"] for event in events} == {220.0, 880.0}
+        assert [event["onset"] for event in events] == [0.5, 2.0]
+        first_event = min(events, key=lambda event: event["onset"])
+        if first_event["identity"] == "high":
+            high_first += 1
+        else:
+            low_first += 1
+        assert row["answer_text"] == f"the {first_event['identity']} beep"
+
+        audio_path = tmp_path / "audio" / str(row["audio_filename"])
+        assert audio_path.exists()
+        samples, sample_rate = sf.read(audio_path)
+        assert sample_rate == 16000
+        assert samples.size > 0
+
+    assert high_first == 250
+    assert low_first == 250
+    assert not (tmp_path / "data" / "mcq_synth_benchmark.jsonl").exists()
+
+
 def test_build_synthetic_generation_is_deterministic(tmp_path: Path) -> None:
     audio_root = tmp_path / "audio"
     dataset_root = tmp_path / "data"
@@ -156,3 +214,42 @@ def test_synthetic_scene_invariants_hold(tmp_path: Path) -> None:
     assert len(aggregate_rows) == 12
     assert {row["difficulty"] for row in aggregate_rows} == {"hard"}
     assert {row["benchmark_family"] for row in aggregate_rows} == {"time", "pitch", "loudness", "rhythm"}
+
+
+def test_pitch_order_trivial_generation_is_deterministic(tmp_path: Path) -> None:
+    audio_root = tmp_path / "audio"
+    dataset_root = tmp_path / "data"
+
+    main(
+        benchmark="pitch_order_trivial",
+        difficulty="easy",
+        scenes_per_split=4,
+        seed=11,
+        sample_rate=16000,
+        audio_root=audio_root,
+        dataset_root=dataset_root,
+        generator_version="synth-v1",
+    )
+    dataset_path = dataset_root / "mcq_synth_pitch_order_trivial_easy.jsonl"
+    first_dataset = dataset_path.read_text(encoding="utf-8")
+    first_audio = (
+        audio_root / "synthetic" / "pitch_order_trivial" / "easy" / "synth_pitch_order_trivial_easy_000001.wav"
+    ).read_bytes()
+
+    main(
+        benchmark="pitch_order_trivial",
+        difficulty="easy",
+        scenes_per_split=4,
+        seed=11,
+        sample_rate=16000,
+        audio_root=audio_root,
+        dataset_root=dataset_root,
+        generator_version="synth-v1",
+    )
+    second_dataset = dataset_path.read_text(encoding="utf-8")
+    second_audio = (
+        audio_root / "synthetic" / "pitch_order_trivial" / "easy" / "synth_pitch_order_trivial_easy_000001.wav"
+    ).read_bytes()
+
+    assert first_dataset == second_dataset
+    assert first_audio == second_audio

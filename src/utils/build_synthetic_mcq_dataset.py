@@ -23,6 +23,8 @@ except ImportError:  # pragma: no cover - enables direct script execution
 console = Console()
 
 BENCHMARKS = ("time", "pitch", "loudness", "rhythm")
+STANDALONE_BENCHMARKS = ("pitch_order_trivial",)
+ALL_BENCHMARKS = BENCHMARKS + STANDALONE_BENCHMARKS
 DIFFICULTIES = ("easy", "medium", "hard")
 AGGREGATE_TASK_ID = "MCQ-SYNTH"
 AGGREGATE_TASK_NAME = "synthetic_mcq_benchmark"
@@ -33,6 +35,7 @@ TASK_IDS = {
     "pitch": "MCQ-SYNTH-PITCH",
     "loudness": "MCQ-SYNTH-LOUDNESS",
     "rhythm": "MCQ-SYNTH-RHYTHM",
+    "pitch_order_trivial": "MCQ-SYNTH-PITCH-ORDER-TRIVIAL",
 }
 
 TASK_NAMES = {
@@ -40,6 +43,7 @@ TASK_NAMES = {
     "pitch": "synthetic_pitch_mcq",
     "loudness": "synthetic_loudness_mcq",
     "rhythm": "synthetic_rhythm_mcq",
+    "pitch_order_trivial": "synthetic_pitch_order_trivial_mcq",
 }
 
 TIME_WAVEFORMS = [
@@ -62,6 +66,7 @@ RHYTHM_OPTIONS = [
 TIME_TEMPLATE_IDS = ("starts_first", "starts_last", "longest_duration", "shortest_duration")
 PITCH_TEMPLATE_IDS = ("highest_pitch", "lowest_pitch")
 LOUDNESS_TEMPLATE_IDS = ("loudest", "quietest")
+PITCH_ORDER_TRIVIAL_TEMPLATE_ID = "high_vs_low_first"
 
 
 @dataclass(frozen=True)
@@ -457,6 +462,76 @@ def _rhythm_scene(
     }
 
 
+def _pitch_order_trivial_scene(
+    *,
+    rng: random.Random,
+    scene_index: int,
+    difficulty: str,
+    sample_rate: int,
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    del rng
+    if difficulty != "easy":
+        raise ValueError("Benchmark 'pitch_order_trivial' only supports difficulty='easy'.")
+
+    duration = 0.15
+    dbfs = -18.0
+    first_onset = 0.50
+    second_onset = 2.00
+    order = ("high", "low") if scene_index % 2 == 0 else ("low", "high")
+
+    event_specs = {
+        "high": {"text": "the high beep", "pitch_hz": 880.0},
+        "low": {"text": "the low beep", "pitch_hz": 220.0},
+    }
+
+    events: list[dict[str, Any]] = []
+    render_events: list[dict[str, float | str]] = []
+    for onset, key in zip((first_onset, second_onset), order):
+        spec = event_specs[key]
+        offset = round(onset + duration, 3)
+        event = {
+            "key": key,
+            "text": spec["text"],
+            "identity": key,
+            "waveform": "sine",
+            "onset": onset,
+            "duration": duration,
+            "offset": offset,
+            "pitch_hz": spec["pitch_hz"],
+            "dbfs": dbfs,
+        }
+        events.append(event)
+        render_events.append(
+            {
+                "waveform": "sine",
+                "pitch_hz": float(spec["pitch_hz"]),
+                "dbfs": dbfs,
+                "onset": onset,
+                "duration": duration,
+            }
+        )
+
+    total_duration = round(second_onset + duration + 0.40, 3)
+    waveform = render_timeline(
+        events=render_events,
+        total_duration_seconds=total_duration,
+        sample_rate=sample_rate,
+    )
+    return [
+        {"key": "high", "text": "the high beep", "type": "event"},
+        {"key": "low", "text": "the low beep", "type": "event"},
+    ], {
+        "question": "You will hear a high beep and a low beep. Which one happened first?",
+        "question_template": PITCH_ORDER_TRIVIAL_TEMPLATE_ID,
+        "answer_key": order[0],
+        "scene": {
+            "duration_seconds": total_duration,
+            "events": events,
+        },
+        "waveform": waveform,
+    }
+
+
 def _build_split(
     *,
     benchmark: str,
@@ -483,6 +558,7 @@ def _build_split(
         "pitch": _pitch_scene,
         "loudness": _loudness_scene,
         "rhythm": _rhythm_scene,
+        "pitch_order_trivial": _pitch_order_trivial_scene,
     }[benchmark]
 
     for scene_index in range(scenes_per_split):
@@ -658,7 +734,7 @@ def main(
     benchmark: str = typer.Option(
         "all",
         "--benchmark",
-        help="Benchmark family to build (time|pitch|loudness|rhythm|all).",
+        help="Benchmark family to build (time|pitch|loudness|rhythm|pitch_order_trivial|all).",
     ),
     difficulty: str = typer.Option(
         "all",
@@ -700,8 +776,19 @@ def main(
         help="Version string saved into each row for reproducibility.",
     ),
 ) -> None:
-    selected_benchmarks = _parse_axis(benchmark, allowed=BENCHMARKS, axis_name="benchmark")
+    selected_benchmarks = (
+        list(BENCHMARKS)
+        if benchmark.strip().lower() == "all"
+        else _parse_axis(benchmark, allowed=ALL_BENCHMARKS, axis_name="benchmark")
+    )
     selected_difficulties = _parse_axis(difficulty, allowed=DIFFICULTIES, axis_name="difficulty")
+    if any(benchmark_key in STANDALONE_BENCHMARKS for benchmark_key in selected_benchmarks):
+        invalid_difficulties = [difficulty_key for difficulty_key in selected_difficulties if difficulty_key != "easy"]
+        if invalid_difficulties:
+            invalid = ", ".join(sorted(invalid_difficulties))
+            raise typer.BadParameter(
+                f"Benchmark 'pitch_order_trivial' only supports difficulty='easy' (got: {invalid})."
+            )
 
     summaries: list[SplitSummary] = []
     for benchmark_key in selected_benchmarks:
@@ -719,9 +806,10 @@ def main(
                 )
             )
 
-    if len(summaries) > 1:
+    aggregate_summaries = [summary for summary in summaries if summary.benchmark in BENCHMARKS]
+    if len(aggregate_summaries) > 1:
         _build_aggregate_dataset(
-            summaries=summaries,
+            summaries=aggregate_summaries,
             dataset_root=dataset_root,
             seed=seed,
             sample_rate=sample_rate,

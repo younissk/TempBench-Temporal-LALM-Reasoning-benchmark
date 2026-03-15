@@ -88,6 +88,13 @@ TASKS: dict[str, TaskSpec] = {
         requires_download=False,
         requires_audio_extract=False,
     ),
+    "mcq-synth-pitch-order-trivial": TaskSpec(
+        key="mcq-synth-pitch-order-trivial",
+        dataset_default=Path("data/mcq_synth_pitch_order_trivial_easy.jsonl"),
+        build_target="build-mcq-synth-pitch-order-trivial",
+        requires_download=False,
+        requires_audio_extract=False,
+    ),
 }
 
 MODELS: dict[str, ModelSpec] = {
@@ -373,7 +380,7 @@ def main(
         help=(
             "Benchmark task id "
             "(mcq-order|mcq-relation|mcq-safety|mcq-synth|mcq-synth-time|mcq-synth-pitch|"
-            "mcq-synth-loudness|mcq-synth-rhythm)."
+            "mcq-synth-loudness|mcq-synth-rhythm|mcq-synth-pitch-order-trivial)."
         ),
     ),
     model: str = typer.Option(
