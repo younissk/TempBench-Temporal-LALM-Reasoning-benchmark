@@ -1,0 +1,2508 @@
+{
+  "dataset_path": "data/audio",
+  "split": "test",
+  "split_path": "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-pitch-order-trivial/mcq-order/audio-flamingo-3/20260318_023938/workdir/audio_links",
+  "flamingo_task": "MCQ-SYNTH-PITCH-ORDER-TRIVIAL",
+  "data": {
+    "0": {
+      "name": "000000_synth_pitch_order_trivial_easy_000001.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "1": {
+      "name": "000001_synth_pitch_order_trivial_easy_000002.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "2": {
+      "name": "000002_synth_pitch_order_trivial_easy_000003.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "3": {
+      "name": "000003_synth_pitch_order_trivial_easy_000004.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "4": {
+      "name": "000004_synth_pitch_order_trivial_easy_000005.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "5": {
+      "name": "000005_synth_pitch_order_trivial_easy_000006.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "6": {
+      "name": "000006_synth_pitch_order_trivial_easy_000007.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "7": {
+      "name": "000007_synth_pitch_order_trivial_easy_000008.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "8": {
+      "name": "000008_synth_pitch_order_trivial_easy_000009.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "9": {
+      "name": "000009_synth_pitch_order_trivial_easy_000010.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "10": {
+      "name": "000010_synth_pitch_order_trivial_easy_000011.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "11": {
+      "name": "000011_synth_pitch_order_trivial_easy_000012.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "12": {
+      "name": "000012_synth_pitch_order_trivial_easy_000013.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "13": {
+      "name": "000013_synth_pitch_order_trivial_easy_000014.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "14": {
+      "name": "000014_synth_pitch_order_trivial_easy_000015.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "15": {
+      "name": "000015_synth_pitch_order_trivial_easy_000016.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "16": {
+      "name": "000016_synth_pitch_order_trivial_easy_000017.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "17": {
+      "name": "000017_synth_pitch_order_trivial_easy_000018.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "18": {
+      "name": "000018_synth_pitch_order_trivial_easy_000019.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "19": {
+      "name": "000019_synth_pitch_order_trivial_easy_000020.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "20": {
+      "name": "000020_synth_pitch_order_trivial_easy_000021.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "21": {
+      "name": "000021_synth_pitch_order_trivial_easy_000022.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "22": {
+      "name": "000022_synth_pitch_order_trivial_easy_000023.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "23": {
+      "name": "000023_synth_pitch_order_trivial_easy_000024.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "24": {
+      "name": "000024_synth_pitch_order_trivial_easy_000025.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "25": {
+      "name": "000025_synth_pitch_order_trivial_easy_000026.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "26": {
+      "name": "000026_synth_pitch_order_trivial_easy_000027.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "27": {
+      "name": "000027_synth_pitch_order_trivial_easy_000028.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "28": {
+      "name": "000028_synth_pitch_order_trivial_easy_000029.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "29": {
+      "name": "000029_synth_pitch_order_trivial_easy_000030.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "30": {
+      "name": "000030_synth_pitch_order_trivial_easy_000031.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "31": {
+      "name": "000031_synth_pitch_order_trivial_easy_000032.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "32": {
+      "name": "000032_synth_pitch_order_trivial_easy_000033.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "33": {
+      "name": "000033_synth_pitch_order_trivial_easy_000034.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "34": {
+      "name": "000034_synth_pitch_order_trivial_easy_000035.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "35": {
+      "name": "000035_synth_pitch_order_trivial_easy_000036.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "36": {
+      "name": "000036_synth_pitch_order_trivial_easy_000037.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "37": {
+      "name": "000037_synth_pitch_order_trivial_easy_000038.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "38": {
+      "name": "000038_synth_pitch_order_trivial_easy_000039.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "39": {
+      "name": "000039_synth_pitch_order_trivial_easy_000040.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "40": {
+      "name": "000040_synth_pitch_order_trivial_easy_000041.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "41": {
+      "name": "000041_synth_pitch_order_trivial_easy_000042.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "42": {
+      "name": "000042_synth_pitch_order_trivial_easy_000043.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "43": {
+      "name": "000043_synth_pitch_order_trivial_easy_000044.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "44": {
+      "name": "000044_synth_pitch_order_trivial_easy_000045.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "45": {
+      "name": "000045_synth_pitch_order_trivial_easy_000046.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "46": {
+      "name": "000046_synth_pitch_order_trivial_easy_000047.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "47": {
+      "name": "000047_synth_pitch_order_trivial_easy_000048.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "48": {
+      "name": "000048_synth_pitch_order_trivial_easy_000049.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "49": {
+      "name": "000049_synth_pitch_order_trivial_easy_000050.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "50": {
+      "name": "000050_synth_pitch_order_trivial_easy_000051.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "51": {
+      "name": "000051_synth_pitch_order_trivial_easy_000052.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "52": {
+      "name": "000052_synth_pitch_order_trivial_easy_000053.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "53": {
+      "name": "000053_synth_pitch_order_trivial_easy_000054.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "54": {
+      "name": "000054_synth_pitch_order_trivial_easy_000055.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "55": {
+      "name": "000055_synth_pitch_order_trivial_easy_000056.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "56": {
+      "name": "000056_synth_pitch_order_trivial_easy_000057.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "57": {
+      "name": "000057_synth_pitch_order_trivial_easy_000058.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "58": {
+      "name": "000058_synth_pitch_order_trivial_easy_000059.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "59": {
+      "name": "000059_synth_pitch_order_trivial_easy_000060.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "60": {
+      "name": "000060_synth_pitch_order_trivial_easy_000061.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "61": {
+      "name": "000061_synth_pitch_order_trivial_easy_000062.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "62": {
+      "name": "000062_synth_pitch_order_trivial_easy_000063.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "63": {
+      "name": "000063_synth_pitch_order_trivial_easy_000064.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "64": {
+      "name": "000064_synth_pitch_order_trivial_easy_000065.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "65": {
+      "name": "000065_synth_pitch_order_trivial_easy_000066.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "66": {
+      "name": "000066_synth_pitch_order_trivial_easy_000067.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "67": {
+      "name": "000067_synth_pitch_order_trivial_easy_000068.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "68": {
+      "name": "000068_synth_pitch_order_trivial_easy_000069.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "69": {
+      "name": "000069_synth_pitch_order_trivial_easy_000070.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "70": {
+      "name": "000070_synth_pitch_order_trivial_easy_000071.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "71": {
+      "name": "000071_synth_pitch_order_trivial_easy_000072.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "72": {
+      "name": "000072_synth_pitch_order_trivial_easy_000073.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "73": {
+      "name": "000073_synth_pitch_order_trivial_easy_000074.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "74": {
+      "name": "000074_synth_pitch_order_trivial_easy_000075.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "75": {
+      "name": "000075_synth_pitch_order_trivial_easy_000076.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "76": {
+      "name": "000076_synth_pitch_order_trivial_easy_000077.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "77": {
+      "name": "000077_synth_pitch_order_trivial_easy_000078.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "78": {
+      "name": "000078_synth_pitch_order_trivial_easy_000079.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "79": {
+      "name": "000079_synth_pitch_order_trivial_easy_000080.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "80": {
+      "name": "000080_synth_pitch_order_trivial_easy_000081.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "81": {
+      "name": "000081_synth_pitch_order_trivial_easy_000082.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "82": {
+      "name": "000082_synth_pitch_order_trivial_easy_000083.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "83": {
+      "name": "000083_synth_pitch_order_trivial_easy_000084.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "84": {
+      "name": "000084_synth_pitch_order_trivial_easy_000085.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "85": {
+      "name": "000085_synth_pitch_order_trivial_easy_000086.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "86": {
+      "name": "000086_synth_pitch_order_trivial_easy_000087.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "87": {
+      "name": "000087_synth_pitch_order_trivial_easy_000088.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "88": {
+      "name": "000088_synth_pitch_order_trivial_easy_000089.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "89": {
+      "name": "000089_synth_pitch_order_trivial_easy_000090.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "90": {
+      "name": "000090_synth_pitch_order_trivial_easy_000091.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "91": {
+      "name": "000091_synth_pitch_order_trivial_easy_000092.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "92": {
+      "name": "000092_synth_pitch_order_trivial_easy_000093.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "93": {
+      "name": "000093_synth_pitch_order_trivial_easy_000094.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "94": {
+      "name": "000094_synth_pitch_order_trivial_easy_000095.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "95": {
+      "name": "000095_synth_pitch_order_trivial_easy_000096.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "96": {
+      "name": "000096_synth_pitch_order_trivial_easy_000097.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "97": {
+      "name": "000097_synth_pitch_order_trivial_easy_000098.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "98": {
+      "name": "000098_synth_pitch_order_trivial_easy_000099.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "99": {
+      "name": "000099_synth_pitch_order_trivial_easy_000100.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "100": {
+      "name": "000100_synth_pitch_order_trivial_easy_000101.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "101": {
+      "name": "000101_synth_pitch_order_trivial_easy_000102.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "102": {
+      "name": "000102_synth_pitch_order_trivial_easy_000103.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "103": {
+      "name": "000103_synth_pitch_order_trivial_easy_000104.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "104": {
+      "name": "000104_synth_pitch_order_trivial_easy_000105.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "105": {
+      "name": "000105_synth_pitch_order_trivial_easy_000106.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "106": {
+      "name": "000106_synth_pitch_order_trivial_easy_000107.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "107": {
+      "name": "000107_synth_pitch_order_trivial_easy_000108.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "108": {
+      "name": "000108_synth_pitch_order_trivial_easy_000109.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "109": {
+      "name": "000109_synth_pitch_order_trivial_easy_000110.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "110": {
+      "name": "000110_synth_pitch_order_trivial_easy_000111.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "111": {
+      "name": "000111_synth_pitch_order_trivial_easy_000112.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "112": {
+      "name": "000112_synth_pitch_order_trivial_easy_000113.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "113": {
+      "name": "000113_synth_pitch_order_trivial_easy_000114.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "114": {
+      "name": "000114_synth_pitch_order_trivial_easy_000115.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "115": {
+      "name": "000115_synth_pitch_order_trivial_easy_000116.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "116": {
+      "name": "000116_synth_pitch_order_trivial_easy_000117.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "117": {
+      "name": "000117_synth_pitch_order_trivial_easy_000118.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "118": {
+      "name": "000118_synth_pitch_order_trivial_easy_000119.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "119": {
+      "name": "000119_synth_pitch_order_trivial_easy_000120.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "120": {
+      "name": "000120_synth_pitch_order_trivial_easy_000121.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "121": {
+      "name": "000121_synth_pitch_order_trivial_easy_000122.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "122": {
+      "name": "000122_synth_pitch_order_trivial_easy_000123.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "123": {
+      "name": "000123_synth_pitch_order_trivial_easy_000124.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "124": {
+      "name": "000124_synth_pitch_order_trivial_easy_000125.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "125": {
+      "name": "000125_synth_pitch_order_trivial_easy_000126.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "126": {
+      "name": "000126_synth_pitch_order_trivial_easy_000127.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "127": {
+      "name": "000127_synth_pitch_order_trivial_easy_000128.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "128": {
+      "name": "000128_synth_pitch_order_trivial_easy_000129.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "129": {
+      "name": "000129_synth_pitch_order_trivial_easy_000130.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "130": {
+      "name": "000130_synth_pitch_order_trivial_easy_000131.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "131": {
+      "name": "000131_synth_pitch_order_trivial_easy_000132.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "132": {
+      "name": "000132_synth_pitch_order_trivial_easy_000133.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "133": {
+      "name": "000133_synth_pitch_order_trivial_easy_000134.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "134": {
+      "name": "000134_synth_pitch_order_trivial_easy_000135.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "135": {
+      "name": "000135_synth_pitch_order_trivial_easy_000136.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "136": {
+      "name": "000136_synth_pitch_order_trivial_easy_000137.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "137": {
+      "name": "000137_synth_pitch_order_trivial_easy_000138.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "138": {
+      "name": "000138_synth_pitch_order_trivial_easy_000139.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "139": {
+      "name": "000139_synth_pitch_order_trivial_easy_000140.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "140": {
+      "name": "000140_synth_pitch_order_trivial_easy_000141.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "141": {
+      "name": "000141_synth_pitch_order_trivial_easy_000142.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "142": {
+      "name": "000142_synth_pitch_order_trivial_easy_000143.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "143": {
+      "name": "000143_synth_pitch_order_trivial_easy_000144.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "144": {
+      "name": "000144_synth_pitch_order_trivial_easy_000145.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "145": {
+      "name": "000145_synth_pitch_order_trivial_easy_000146.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "146": {
+      "name": "000146_synth_pitch_order_trivial_easy_000147.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "147": {
+      "name": "000147_synth_pitch_order_trivial_easy_000148.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "148": {
+      "name": "000148_synth_pitch_order_trivial_easy_000149.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "149": {
+      "name": "000149_synth_pitch_order_trivial_easy_000150.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "150": {
+      "name": "000150_synth_pitch_order_trivial_easy_000151.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "151": {
+      "name": "000151_synth_pitch_order_trivial_easy_000152.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "152": {
+      "name": "000152_synth_pitch_order_trivial_easy_000153.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "153": {
+      "name": "000153_synth_pitch_order_trivial_easy_000154.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "154": {
+      "name": "000154_synth_pitch_order_trivial_easy_000155.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "155": {
+      "name": "000155_synth_pitch_order_trivial_easy_000156.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "156": {
+      "name": "000156_synth_pitch_order_trivial_easy_000157.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "157": {
+      "name": "000157_synth_pitch_order_trivial_easy_000158.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "158": {
+      "name": "000158_synth_pitch_order_trivial_easy_000159.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "159": {
+      "name": "000159_synth_pitch_order_trivial_easy_000160.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "160": {
+      "name": "000160_synth_pitch_order_trivial_easy_000161.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "161": {
+      "name": "000161_synth_pitch_order_trivial_easy_000162.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "162": {
+      "name": "000162_synth_pitch_order_trivial_easy_000163.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "163": {
+      "name": "000163_synth_pitch_order_trivial_easy_000164.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "164": {
+      "name": "000164_synth_pitch_order_trivial_easy_000165.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "165": {
+      "name": "000165_synth_pitch_order_trivial_easy_000166.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "166": {
+      "name": "000166_synth_pitch_order_trivial_easy_000167.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "167": {
+      "name": "000167_synth_pitch_order_trivial_easy_000168.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "168": {
+      "name": "000168_synth_pitch_order_trivial_easy_000169.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "169": {
+      "name": "000169_synth_pitch_order_trivial_easy_000170.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "170": {
+      "name": "000170_synth_pitch_order_trivial_easy_000171.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "171": {
+      "name": "000171_synth_pitch_order_trivial_easy_000172.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "172": {
+      "name": "000172_synth_pitch_order_trivial_easy_000173.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "173": {
+      "name": "000173_synth_pitch_order_trivial_easy_000174.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "174": {
+      "name": "000174_synth_pitch_order_trivial_easy_000175.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "175": {
+      "name": "000175_synth_pitch_order_trivial_easy_000176.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "176": {
+      "name": "000176_synth_pitch_order_trivial_easy_000177.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "177": {
+      "name": "000177_synth_pitch_order_trivial_easy_000178.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "178": {
+      "name": "000178_synth_pitch_order_trivial_easy_000179.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "179": {
+      "name": "000179_synth_pitch_order_trivial_easy_000180.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "180": {
+      "name": "000180_synth_pitch_order_trivial_easy_000181.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "181": {
+      "name": "000181_synth_pitch_order_trivial_easy_000182.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "182": {
+      "name": "000182_synth_pitch_order_trivial_easy_000183.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "183": {
+      "name": "000183_synth_pitch_order_trivial_easy_000184.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "184": {
+      "name": "000184_synth_pitch_order_trivial_easy_000185.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "185": {
+      "name": "000185_synth_pitch_order_trivial_easy_000186.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "186": {
+      "name": "000186_synth_pitch_order_trivial_easy_000187.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "187": {
+      "name": "000187_synth_pitch_order_trivial_easy_000188.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "188": {
+      "name": "000188_synth_pitch_order_trivial_easy_000189.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "189": {
+      "name": "000189_synth_pitch_order_trivial_easy_000190.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "190": {
+      "name": "000190_synth_pitch_order_trivial_easy_000191.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "191": {
+      "name": "000191_synth_pitch_order_trivial_easy_000192.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "192": {
+      "name": "000192_synth_pitch_order_trivial_easy_000193.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "193": {
+      "name": "000193_synth_pitch_order_trivial_easy_000194.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "194": {
+      "name": "000194_synth_pitch_order_trivial_easy_000195.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "195": {
+      "name": "000195_synth_pitch_order_trivial_easy_000196.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "196": {
+      "name": "000196_synth_pitch_order_trivial_easy_000197.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "197": {
+      "name": "000197_synth_pitch_order_trivial_easy_000198.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "198": {
+      "name": "000198_synth_pitch_order_trivial_easy_000199.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "199": {
+      "name": "000199_synth_pitch_order_trivial_easy_000200.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "200": {
+      "name": "000200_synth_pitch_order_trivial_easy_000201.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "201": {
+      "name": "000201_synth_pitch_order_trivial_easy_000202.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "202": {
+      "name": "000202_synth_pitch_order_trivial_easy_000203.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "203": {
+      "name": "000203_synth_pitch_order_trivial_easy_000204.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "204": {
+      "name": "000204_synth_pitch_order_trivial_easy_000205.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "205": {
+      "name": "000205_synth_pitch_order_trivial_easy_000206.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "206": {
+      "name": "000206_synth_pitch_order_trivial_easy_000207.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "207": {
+      "name": "000207_synth_pitch_order_trivial_easy_000208.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "208": {
+      "name": "000208_synth_pitch_order_trivial_easy_000209.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "209": {
+      "name": "000209_synth_pitch_order_trivial_easy_000210.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "210": {
+      "name": "000210_synth_pitch_order_trivial_easy_000211.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "211": {
+      "name": "000211_synth_pitch_order_trivial_easy_000212.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "212": {
+      "name": "000212_synth_pitch_order_trivial_easy_000213.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "213": {
+      "name": "000213_synth_pitch_order_trivial_easy_000214.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "214": {
+      "name": "000214_synth_pitch_order_trivial_easy_000215.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "215": {
+      "name": "000215_synth_pitch_order_trivial_easy_000216.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "216": {
+      "name": "000216_synth_pitch_order_trivial_easy_000217.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "217": {
+      "name": "000217_synth_pitch_order_trivial_easy_000218.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "218": {
+      "name": "000218_synth_pitch_order_trivial_easy_000219.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "219": {
+      "name": "000219_synth_pitch_order_trivial_easy_000220.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "220": {
+      "name": "000220_synth_pitch_order_trivial_easy_000221.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "221": {
+      "name": "000221_synth_pitch_order_trivial_easy_000222.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "222": {
+      "name": "000222_synth_pitch_order_trivial_easy_000223.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "223": {
+      "name": "000223_synth_pitch_order_trivial_easy_000224.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "224": {
+      "name": "000224_synth_pitch_order_trivial_easy_000225.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "225": {
+      "name": "000225_synth_pitch_order_trivial_easy_000226.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "226": {
+      "name": "000226_synth_pitch_order_trivial_easy_000227.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "227": {
+      "name": "000227_synth_pitch_order_trivial_easy_000228.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "228": {
+      "name": "000228_synth_pitch_order_trivial_easy_000229.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "229": {
+      "name": "000229_synth_pitch_order_trivial_easy_000230.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "230": {
+      "name": "000230_synth_pitch_order_trivial_easy_000231.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "231": {
+      "name": "000231_synth_pitch_order_trivial_easy_000232.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "232": {
+      "name": "000232_synth_pitch_order_trivial_easy_000233.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "233": {
+      "name": "000233_synth_pitch_order_trivial_easy_000234.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "234": {
+      "name": "000234_synth_pitch_order_trivial_easy_000235.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "235": {
+      "name": "000235_synth_pitch_order_trivial_easy_000236.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "236": {
+      "name": "000236_synth_pitch_order_trivial_easy_000237.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "237": {
+      "name": "000237_synth_pitch_order_trivial_easy_000238.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "238": {
+      "name": "000238_synth_pitch_order_trivial_easy_000239.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "239": {
+      "name": "000239_synth_pitch_order_trivial_easy_000240.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "240": {
+      "name": "000240_synth_pitch_order_trivial_easy_000241.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "241": {
+      "name": "000241_synth_pitch_order_trivial_easy_000242.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "242": {
+      "name": "000242_synth_pitch_order_trivial_easy_000243.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "243": {
+      "name": "000243_synth_pitch_order_trivial_easy_000244.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "244": {
+      "name": "000244_synth_pitch_order_trivial_easy_000245.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "245": {
+      "name": "000245_synth_pitch_order_trivial_easy_000246.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "246": {
+      "name": "000246_synth_pitch_order_trivial_easy_000247.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "247": {
+      "name": "000247_synth_pitch_order_trivial_easy_000248.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "248": {
+      "name": "000248_synth_pitch_order_trivial_easy_000249.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "249": {
+      "name": "000249_synth_pitch_order_trivial_easy_000250.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "250": {
+      "name": "000250_synth_pitch_order_trivial_easy_000251.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "251": {
+      "name": "000251_synth_pitch_order_trivial_easy_000252.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "252": {
+      "name": "000252_synth_pitch_order_trivial_easy_000253.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "253": {
+      "name": "000253_synth_pitch_order_trivial_easy_000254.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "254": {
+      "name": "000254_synth_pitch_order_trivial_easy_000255.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "255": {
+      "name": "000255_synth_pitch_order_trivial_easy_000256.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "256": {
+      "name": "000256_synth_pitch_order_trivial_easy_000257.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "257": {
+      "name": "000257_synth_pitch_order_trivial_easy_000258.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "258": {
+      "name": "000258_synth_pitch_order_trivial_easy_000259.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "259": {
+      "name": "000259_synth_pitch_order_trivial_easy_000260.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "260": {
+      "name": "000260_synth_pitch_order_trivial_easy_000261.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "261": {
+      "name": "000261_synth_pitch_order_trivial_easy_000262.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "262": {
+      "name": "000262_synth_pitch_order_trivial_easy_000263.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "263": {
+      "name": "000263_synth_pitch_order_trivial_easy_000264.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "264": {
+      "name": "000264_synth_pitch_order_trivial_easy_000265.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "265": {
+      "name": "000265_synth_pitch_order_trivial_easy_000266.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "266": {
+      "name": "000266_synth_pitch_order_trivial_easy_000267.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "267": {
+      "name": "000267_synth_pitch_order_trivial_easy_000268.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "268": {
+      "name": "000268_synth_pitch_order_trivial_easy_000269.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "269": {
+      "name": "000269_synth_pitch_order_trivial_easy_000270.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "270": {
+      "name": "000270_synth_pitch_order_trivial_easy_000271.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "271": {
+      "name": "000271_synth_pitch_order_trivial_easy_000272.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "272": {
+      "name": "000272_synth_pitch_order_trivial_easy_000273.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "273": {
+      "name": "000273_synth_pitch_order_trivial_easy_000274.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "274": {
+      "name": "000274_synth_pitch_order_trivial_easy_000275.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "275": {
+      "name": "000275_synth_pitch_order_trivial_easy_000276.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "276": {
+      "name": "000276_synth_pitch_order_trivial_easy_000277.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "277": {
+      "name": "000277_synth_pitch_order_trivial_easy_000278.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "278": {
+      "name": "000278_synth_pitch_order_trivial_easy_000279.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "279": {
+      "name": "000279_synth_pitch_order_trivial_easy_000280.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "280": {
+      "name": "000280_synth_pitch_order_trivial_easy_000281.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "281": {
+      "name": "000281_synth_pitch_order_trivial_easy_000282.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "282": {
+      "name": "000282_synth_pitch_order_trivial_easy_000283.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "283": {
+      "name": "000283_synth_pitch_order_trivial_easy_000284.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "284": {
+      "name": "000284_synth_pitch_order_trivial_easy_000285.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "285": {
+      "name": "000285_synth_pitch_order_trivial_easy_000286.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "286": {
+      "name": "000286_synth_pitch_order_trivial_easy_000287.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "287": {
+      "name": "000287_synth_pitch_order_trivial_easy_000288.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "288": {
+      "name": "000288_synth_pitch_order_trivial_easy_000289.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "289": {
+      "name": "000289_synth_pitch_order_trivial_easy_000290.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "290": {
+      "name": "000290_synth_pitch_order_trivial_easy_000291.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "291": {
+      "name": "000291_synth_pitch_order_trivial_easy_000292.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "292": {
+      "name": "000292_synth_pitch_order_trivial_easy_000293.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "293": {
+      "name": "000293_synth_pitch_order_trivial_easy_000294.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "294": {
+      "name": "000294_synth_pitch_order_trivial_easy_000295.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "295": {
+      "name": "000295_synth_pitch_order_trivial_easy_000296.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "296": {
+      "name": "000296_synth_pitch_order_trivial_easy_000297.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "297": {
+      "name": "000297_synth_pitch_order_trivial_easy_000298.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "298": {
+      "name": "000298_synth_pitch_order_trivial_easy_000299.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "299": {
+      "name": "000299_synth_pitch_order_trivial_easy_000300.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "300": {
+      "name": "000300_synth_pitch_order_trivial_easy_000301.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "301": {
+      "name": "000301_synth_pitch_order_trivial_easy_000302.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "302": {
+      "name": "000302_synth_pitch_order_trivial_easy_000303.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "303": {
+      "name": "000303_synth_pitch_order_trivial_easy_000304.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "304": {
+      "name": "000304_synth_pitch_order_trivial_easy_000305.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "305": {
+      "name": "000305_synth_pitch_order_trivial_easy_000306.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "306": {
+      "name": "000306_synth_pitch_order_trivial_easy_000307.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "307": {
+      "name": "000307_synth_pitch_order_trivial_easy_000308.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "308": {
+      "name": "000308_synth_pitch_order_trivial_easy_000309.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "309": {
+      "name": "000309_synth_pitch_order_trivial_easy_000310.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "310": {
+      "name": "000310_synth_pitch_order_trivial_easy_000311.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "311": {
+      "name": "000311_synth_pitch_order_trivial_easy_000312.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "312": {
+      "name": "000312_synth_pitch_order_trivial_easy_000313.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "313": {
+      "name": "000313_synth_pitch_order_trivial_easy_000314.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "314": {
+      "name": "000314_synth_pitch_order_trivial_easy_000315.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "315": {
+      "name": "000315_synth_pitch_order_trivial_easy_000316.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "316": {
+      "name": "000316_synth_pitch_order_trivial_easy_000317.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "317": {
+      "name": "000317_synth_pitch_order_trivial_easy_000318.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "318": {
+      "name": "000318_synth_pitch_order_trivial_easy_000319.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "319": {
+      "name": "000319_synth_pitch_order_trivial_easy_000320.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "320": {
+      "name": "000320_synth_pitch_order_trivial_easy_000321.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "321": {
+      "name": "000321_synth_pitch_order_trivial_easy_000322.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "322": {
+      "name": "000322_synth_pitch_order_trivial_easy_000323.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "323": {
+      "name": "000323_synth_pitch_order_trivial_easy_000324.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "324": {
+      "name": "000324_synth_pitch_order_trivial_easy_000325.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "325": {
+      "name": "000325_synth_pitch_order_trivial_easy_000326.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "326": {
+      "name": "000326_synth_pitch_order_trivial_easy_000327.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "327": {
+      "name": "000327_synth_pitch_order_trivial_easy_000328.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "328": {
+      "name": "000328_synth_pitch_order_trivial_easy_000329.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "329": {
+      "name": "000329_synth_pitch_order_trivial_easy_000330.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "330": {
+      "name": "000330_synth_pitch_order_trivial_easy_000331.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "331": {
+      "name": "000331_synth_pitch_order_trivial_easy_000332.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "332": {
+      "name": "000332_synth_pitch_order_trivial_easy_000333.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "333": {
+      "name": "000333_synth_pitch_order_trivial_easy_000334.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "334": {
+      "name": "000334_synth_pitch_order_trivial_easy_000335.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "335": {
+      "name": "000335_synth_pitch_order_trivial_easy_000336.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "336": {
+      "name": "000336_synth_pitch_order_trivial_easy_000337.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "337": {
+      "name": "000337_synth_pitch_order_trivial_easy_000338.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "338": {
+      "name": "000338_synth_pitch_order_trivial_easy_000339.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "339": {
+      "name": "000339_synth_pitch_order_trivial_easy_000340.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "340": {
+      "name": "000340_synth_pitch_order_trivial_easy_000341.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "341": {
+      "name": "000341_synth_pitch_order_trivial_easy_000342.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "342": {
+      "name": "000342_synth_pitch_order_trivial_easy_000343.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "343": {
+      "name": "000343_synth_pitch_order_trivial_easy_000344.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "344": {
+      "name": "000344_synth_pitch_order_trivial_easy_000345.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "345": {
+      "name": "000345_synth_pitch_order_trivial_easy_000346.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "346": {
+      "name": "000346_synth_pitch_order_trivial_easy_000347.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "347": {
+      "name": "000347_synth_pitch_order_trivial_easy_000348.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "348": {
+      "name": "000348_synth_pitch_order_trivial_easy_000349.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "349": {
+      "name": "000349_synth_pitch_order_trivial_easy_000350.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "350": {
+      "name": "000350_synth_pitch_order_trivial_easy_000351.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "351": {
+      "name": "000351_synth_pitch_order_trivial_easy_000352.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "352": {
+      "name": "000352_synth_pitch_order_trivial_easy_000353.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "353": {
+      "name": "000353_synth_pitch_order_trivial_easy_000354.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "354": {
+      "name": "000354_synth_pitch_order_trivial_easy_000355.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "355": {
+      "name": "000355_synth_pitch_order_trivial_easy_000356.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "356": {
+      "name": "000356_synth_pitch_order_trivial_easy_000357.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "357": {
+      "name": "000357_synth_pitch_order_trivial_easy_000358.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "358": {
+      "name": "000358_synth_pitch_order_trivial_easy_000359.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "359": {
+      "name": "000359_synth_pitch_order_trivial_easy_000360.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "360": {
+      "name": "000360_synth_pitch_order_trivial_easy_000361.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "361": {
+      "name": "000361_synth_pitch_order_trivial_easy_000362.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "362": {
+      "name": "000362_synth_pitch_order_trivial_easy_000363.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "363": {
+      "name": "000363_synth_pitch_order_trivial_easy_000364.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "364": {
+      "name": "000364_synth_pitch_order_trivial_easy_000365.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "365": {
+      "name": "000365_synth_pitch_order_trivial_easy_000366.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "366": {
+      "name": "000366_synth_pitch_order_trivial_easy_000367.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "367": {
+      "name": "000367_synth_pitch_order_trivial_easy_000368.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "368": {
+      "name": "000368_synth_pitch_order_trivial_easy_000369.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "369": {
+      "name": "000369_synth_pitch_order_trivial_easy_000370.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "370": {
+      "name": "000370_synth_pitch_order_trivial_easy_000371.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "371": {
+      "name": "000371_synth_pitch_order_trivial_easy_000372.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "372": {
+      "name": "000372_synth_pitch_order_trivial_easy_000373.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "373": {
+      "name": "000373_synth_pitch_order_trivial_easy_000374.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "374": {
+      "name": "000374_synth_pitch_order_trivial_easy_000375.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "375": {
+      "name": "000375_synth_pitch_order_trivial_easy_000376.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "376": {
+      "name": "000376_synth_pitch_order_trivial_easy_000377.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "377": {
+      "name": "000377_synth_pitch_order_trivial_easy_000378.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "378": {
+      "name": "000378_synth_pitch_order_trivial_easy_000379.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "379": {
+      "name": "000379_synth_pitch_order_trivial_easy_000380.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "380": {
+      "name": "000380_synth_pitch_order_trivial_easy_000381.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "381": {
+      "name": "000381_synth_pitch_order_trivial_easy_000382.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "382": {
+      "name": "000382_synth_pitch_order_trivial_easy_000383.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "383": {
+      "name": "000383_synth_pitch_order_trivial_easy_000384.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "384": {
+      "name": "000384_synth_pitch_order_trivial_easy_000385.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "385": {
+      "name": "000385_synth_pitch_order_trivial_easy_000386.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "386": {
+      "name": "000386_synth_pitch_order_trivial_easy_000387.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "387": {
+      "name": "000387_synth_pitch_order_trivial_easy_000388.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "388": {
+      "name": "000388_synth_pitch_order_trivial_easy_000389.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "389": {
+      "name": "000389_synth_pitch_order_trivial_easy_000390.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "390": {
+      "name": "000390_synth_pitch_order_trivial_easy_000391.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "391": {
+      "name": "000391_synth_pitch_order_trivial_easy_000392.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "392": {
+      "name": "000392_synth_pitch_order_trivial_easy_000393.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "393": {
+      "name": "000393_synth_pitch_order_trivial_easy_000394.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "394": {
+      "name": "000394_synth_pitch_order_trivial_easy_000395.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "395": {
+      "name": "000395_synth_pitch_order_trivial_easy_000396.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "396": {
+      "name": "000396_synth_pitch_order_trivial_easy_000397.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "397": {
+      "name": "000397_synth_pitch_order_trivial_easy_000398.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "398": {
+      "name": "000398_synth_pitch_order_trivial_easy_000399.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "399": {
+      "name": "000399_synth_pitch_order_trivial_easy_000400.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "400": {
+      "name": "000400_synth_pitch_order_trivial_easy_000401.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "401": {
+      "name": "000401_synth_pitch_order_trivial_easy_000402.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "402": {
+      "name": "000402_synth_pitch_order_trivial_easy_000403.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "403": {
+      "name": "000403_synth_pitch_order_trivial_easy_000404.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "404": {
+      "name": "000404_synth_pitch_order_trivial_easy_000405.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "405": {
+      "name": "000405_synth_pitch_order_trivial_easy_000406.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "406": {
+      "name": "000406_synth_pitch_order_trivial_easy_000407.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "407": {
+      "name": "000407_synth_pitch_order_trivial_easy_000408.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "408": {
+      "name": "000408_synth_pitch_order_trivial_easy_000409.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "409": {
+      "name": "000409_synth_pitch_order_trivial_easy_000410.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "410": {
+      "name": "000410_synth_pitch_order_trivial_easy_000411.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "411": {
+      "name": "000411_synth_pitch_order_trivial_easy_000412.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "412": {
+      "name": "000412_synth_pitch_order_trivial_easy_000413.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "413": {
+      "name": "000413_synth_pitch_order_trivial_easy_000414.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "414": {
+      "name": "000414_synth_pitch_order_trivial_easy_000415.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "415": {
+      "name": "000415_synth_pitch_order_trivial_easy_000416.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "416": {
+      "name": "000416_synth_pitch_order_trivial_easy_000417.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "417": {
+      "name": "000417_synth_pitch_order_trivial_easy_000418.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "418": {
+      "name": "000418_synth_pitch_order_trivial_easy_000419.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "419": {
+      "name": "000419_synth_pitch_order_trivial_easy_000420.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "420": {
+      "name": "000420_synth_pitch_order_trivial_easy_000421.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "421": {
+      "name": "000421_synth_pitch_order_trivial_easy_000422.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "422": {
+      "name": "000422_synth_pitch_order_trivial_easy_000423.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "423": {
+      "name": "000423_synth_pitch_order_trivial_easy_000424.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "424": {
+      "name": "000424_synth_pitch_order_trivial_easy_000425.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "425": {
+      "name": "000425_synth_pitch_order_trivial_easy_000426.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "426": {
+      "name": "000426_synth_pitch_order_trivial_easy_000427.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "427": {
+      "name": "000427_synth_pitch_order_trivial_easy_000428.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "428": {
+      "name": "000428_synth_pitch_order_trivial_easy_000429.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "429": {
+      "name": "000429_synth_pitch_order_trivial_easy_000430.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "430": {
+      "name": "000430_synth_pitch_order_trivial_easy_000431.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "431": {
+      "name": "000431_synth_pitch_order_trivial_easy_000432.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "432": {
+      "name": "000432_synth_pitch_order_trivial_easy_000433.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "433": {
+      "name": "000433_synth_pitch_order_trivial_easy_000434.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "434": {
+      "name": "000434_synth_pitch_order_trivial_easy_000435.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "435": {
+      "name": "000435_synth_pitch_order_trivial_easy_000436.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "436": {
+      "name": "000436_synth_pitch_order_trivial_easy_000437.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "437": {
+      "name": "000437_synth_pitch_order_trivial_easy_000438.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "438": {
+      "name": "000438_synth_pitch_order_trivial_easy_000439.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "439": {
+      "name": "000439_synth_pitch_order_trivial_easy_000440.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "440": {
+      "name": "000440_synth_pitch_order_trivial_easy_000441.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "441": {
+      "name": "000441_synth_pitch_order_trivial_easy_000442.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "442": {
+      "name": "000442_synth_pitch_order_trivial_easy_000443.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "443": {
+      "name": "000443_synth_pitch_order_trivial_easy_000444.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "444": {
+      "name": "000444_synth_pitch_order_trivial_easy_000445.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "445": {
+      "name": "000445_synth_pitch_order_trivial_easy_000446.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "446": {
+      "name": "000446_synth_pitch_order_trivial_easy_000447.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "447": {
+      "name": "000447_synth_pitch_order_trivial_easy_000448.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "448": {
+      "name": "000448_synth_pitch_order_trivial_easy_000449.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "449": {
+      "name": "000449_synth_pitch_order_trivial_easy_000450.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "450": {
+      "name": "000450_synth_pitch_order_trivial_easy_000451.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "451": {
+      "name": "000451_synth_pitch_order_trivial_easy_000452.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "452": {
+      "name": "000452_synth_pitch_order_trivial_easy_000453.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "453": {
+      "name": "000453_synth_pitch_order_trivial_easy_000454.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "454": {
+      "name": "000454_synth_pitch_order_trivial_easy_000455.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "455": {
+      "name": "000455_synth_pitch_order_trivial_easy_000456.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "456": {
+      "name": "000456_synth_pitch_order_trivial_easy_000457.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "457": {
+      "name": "000457_synth_pitch_order_trivial_easy_000458.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "458": {
+      "name": "000458_synth_pitch_order_trivial_easy_000459.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "459": {
+      "name": "000459_synth_pitch_order_trivial_easy_000460.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "460": {
+      "name": "000460_synth_pitch_order_trivial_easy_000461.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "461": {
+      "name": "000461_synth_pitch_order_trivial_easy_000462.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "462": {
+      "name": "000462_synth_pitch_order_trivial_easy_000463.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "463": {
+      "name": "000463_synth_pitch_order_trivial_easy_000464.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "464": {
+      "name": "000464_synth_pitch_order_trivial_easy_000465.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "465": {
+      "name": "000465_synth_pitch_order_trivial_easy_000466.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "466": {
+      "name": "000466_synth_pitch_order_trivial_easy_000467.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "467": {
+      "name": "000467_synth_pitch_order_trivial_easy_000468.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "468": {
+      "name": "000468_synth_pitch_order_trivial_easy_000469.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "469": {
+      "name": "000469_synth_pitch_order_trivial_easy_000470.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "470": {
+      "name": "000470_synth_pitch_order_trivial_easy_000471.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "471": {
+      "name": "000471_synth_pitch_order_trivial_easy_000472.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "472": {
+      "name": "000472_synth_pitch_order_trivial_easy_000473.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "473": {
+      "name": "000473_synth_pitch_order_trivial_easy_000474.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "474": {
+      "name": "000474_synth_pitch_order_trivial_easy_000475.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "475": {
+      "name": "000475_synth_pitch_order_trivial_easy_000476.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "476": {
+      "name": "000476_synth_pitch_order_trivial_easy_000477.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "477": {
+      "name": "000477_synth_pitch_order_trivial_easy_000478.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "478": {
+      "name": "000478_synth_pitch_order_trivial_easy_000479.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "479": {
+      "name": "000479_synth_pitch_order_trivial_easy_000480.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "480": {
+      "name": "000480_synth_pitch_order_trivial_easy_000481.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "481": {
+      "name": "000481_synth_pitch_order_trivial_easy_000482.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "482": {
+      "name": "000482_synth_pitch_order_trivial_easy_000483.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "483": {
+      "name": "000483_synth_pitch_order_trivial_easy_000484.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "484": {
+      "name": "000484_synth_pitch_order_trivial_easy_000485.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "485": {
+      "name": "000485_synth_pitch_order_trivial_easy_000486.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "486": {
+      "name": "000486_synth_pitch_order_trivial_easy_000487.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "487": {
+      "name": "000487_synth_pitch_order_trivial_easy_000488.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "488": {
+      "name": "000488_synth_pitch_order_trivial_easy_000489.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "489": {
+      "name": "000489_synth_pitch_order_trivial_easy_000490.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "490": {
+      "name": "000490_synth_pitch_order_trivial_easy_000491.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "491": {
+      "name": "000491_synth_pitch_order_trivial_easy_000492.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "492": {
+      "name": "000492_synth_pitch_order_trivial_easy_000493.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "493": {
+      "name": "000493_synth_pitch_order_trivial_easy_000494.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "494": {
+      "name": "000494_synth_pitch_order_trivial_easy_000495.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "495": {
+      "name": "000495_synth_pitch_order_trivial_easy_000496.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "496": {
+      "name": "000496_synth_pitch_order_trivial_easy_000497.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "497": {
+      "name": "000497_synth_pitch_order_trivial_easy_000498.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "498": {
+      "name": "000498_synth_pitch_order_trivial_easy_000499.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the high beep\nB. the low beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "499": {
+      "name": "000499_synth_pitch_order_trivial_easy_000500.wav",
+      "prompt": "You will hear a high beep and a low beep. Which one happened first?\n\nChoose exactly one option.\nA. the low beep\nB. the high beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "task_id": "MCQ-SYNTH-PITCH-ORDER-TRIVIAL",
+  "model_name": "llm-qwen",
+  "examples": 500,
+  "correct": 253,
+  "accuracy": 0.506,
+  "labels": [
+    "A",
+    "B"
+  ],
+  "answer_distribution": [
+    {
+      "label": "A",
+      "count": 253,
+      "rate": 0.506
+    },
+    {
+      "label": "B",
+      "count": 247,
+      "rate": 0.494
+    }
+  ],
+  "prediction_distribution": [
+    {
+      "label": "A",
+      "count": 500,
+      "rate": 1.0
+    },
+    {
+      "label": "B",
+      "count": 0,
+      "rate": 0.0
+    }
+  ],
+  "by_answer_label": [
+    {
+      "label": "A",
+      "support": 253,
+      "correct": 253,
+      "accuracy": 1.0,
+      "predicted_count": 500,
+      "prediction_rate": 1.0
+    },
+    {
+      "label": "B",
+      "support": 247,
+      "correct": 0,
+      "accuracy": 0.0,
+      "predicted_count": 0,
+      "prediction_rate": 0.0
+    }
+  ],
+  "by_n_options": [
+    {
+      "n_options": 2,
+      "examples": 500,
+      "correct": 253,
+      "accuracy": 0.506
+    }
+  ],
+  "by_answer_type": [
+    {
+      "answer_type": "event",
+      "examples": 500,
+      "correct": 253,
+      "accuracy": 0.506
+    }
+  ],
+  "answer_entropy": 0.9998961234639353,
+  "prediction_entropy": 0.0
+}
