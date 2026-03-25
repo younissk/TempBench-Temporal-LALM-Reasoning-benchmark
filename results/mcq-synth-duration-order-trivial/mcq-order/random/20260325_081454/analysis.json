@@ -1,0 +1,71 @@
+{
+  "task_id": "MCQ-SYNTH-DURATION-ORDER-TRIVIAL",
+  "model_name": "random",
+  "examples": 100,
+  "correct": 64,
+  "accuracy": 0.64,
+  "labels": [
+    "A",
+    "B"
+  ],
+  "answer_distribution": [
+    {
+      "label": "A",
+      "count": 53,
+      "rate": 0.53
+    },
+    {
+      "label": "B",
+      "count": 47,
+      "rate": 0.47
+    }
+  ],
+  "prediction_distribution": [
+    {
+      "label": "A",
+      "count": 51,
+      "rate": 0.51
+    },
+    {
+      "label": "B",
+      "count": 49,
+      "rate": 0.49
+    }
+  ],
+  "by_answer_label": [
+    {
+      "label": "A",
+      "support": 53,
+      "correct": 34,
+      "accuracy": 0.6415094339622641,
+      "predicted_count": 51,
+      "prediction_rate": 0.51
+    },
+    {
+      "label": "B",
+      "support": 47,
+      "correct": 30,
+      "accuracy": 0.6382978723404256,
+      "predicted_count": 49,
+      "prediction_rate": 0.49
+    }
+  ],
+  "by_n_options": [
+    {
+      "n_options": 2,
+      "examples": 100,
+      "correct": 64,
+      "accuracy": 0.64
+    }
+  ],
+  "by_answer_type": [
+    {
+      "answer_type": "event",
+      "examples": 100,
+      "correct": 64,
+      "accuracy": 0.64
+    }
+  ],
+  "answer_entropy": 0.9974015885677396,
+  "prediction_entropy": 0.9997114417528099
+}

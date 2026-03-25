@@ -1,0 +1,71 @@
+{
+  "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+  "model_name": "random",
+  "examples": 100,
+  "correct": 46,
+  "accuracy": 0.46,
+  "labels": [
+    "A",
+    "B"
+  ],
+  "answer_distribution": [
+    {
+      "label": "A",
+      "count": 45,
+      "rate": 0.45
+    },
+    {
+      "label": "B",
+      "count": 55,
+      "rate": 0.55
+    }
+  ],
+  "prediction_distribution": [
+    {
+      "label": "A",
+      "count": 51,
+      "rate": 0.51
+    },
+    {
+      "label": "B",
+      "count": 49,
+      "rate": 0.49
+    }
+  ],
+  "by_answer_label": [
+    {
+      "label": "A",
+      "support": 45,
+      "correct": 21,
+      "accuracy": 0.4666666666666667,
+      "predicted_count": 51,
+      "prediction_rate": 0.51
+    },
+    {
+      "label": "B",
+      "support": 55,
+      "correct": 25,
+      "accuracy": 0.45454545454545453,
+      "predicted_count": 49,
+      "prediction_rate": 0.49
+    }
+  ],
+  "by_n_options": [
+    {
+      "n_options": 2,
+      "examples": 100,
+      "correct": 46,
+      "accuracy": 0.46
+    }
+  ],
+  "by_answer_type": [
+    {
+      "answer_type": "event",
+      "examples": 100,
+      "correct": 46,
+      "accuracy": 0.46
+    }
+  ],
+  "answer_entropy": 0.9927744539878083,
+  "prediction_entropy": 0.9997114417528099
+}

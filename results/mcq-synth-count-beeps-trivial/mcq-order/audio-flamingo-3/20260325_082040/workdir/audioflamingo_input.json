@@ -1,0 +1,508 @@
+{
+  "dataset_path": "data/audio",
+  "split": "test",
+  "split_path": "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-count-beeps-trivial/mcq-order/audio-flamingo-3/20260325_082040/workdir/audio_links",
+  "flamingo_task": "MCQ-SYNTH-COUNT-BEEPS-TRIVIAL",
+  "data": {
+    "0": {
+      "name": "000000_synth_count_beeps_trivial_easy_000001.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "1": {
+      "name": "000001_synth_count_beeps_trivial_easy_000002.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "2": {
+      "name": "000002_synth_count_beeps_trivial_easy_000003.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "3": {
+      "name": "000003_synth_count_beeps_trivial_easy_000004.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "4": {
+      "name": "000004_synth_count_beeps_trivial_easy_000005.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "5": {
+      "name": "000005_synth_count_beeps_trivial_easy_000006.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "6": {
+      "name": "000006_synth_count_beeps_trivial_easy_000007.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "7": {
+      "name": "000007_synth_count_beeps_trivial_easy_000008.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "8": {
+      "name": "000008_synth_count_beeps_trivial_easy_000009.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "9": {
+      "name": "000009_synth_count_beeps_trivial_easy_000010.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "10": {
+      "name": "000010_synth_count_beeps_trivial_easy_000011.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "11": {
+      "name": "000011_synth_count_beeps_trivial_easy_000012.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "12": {
+      "name": "000012_synth_count_beeps_trivial_easy_000013.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "13": {
+      "name": "000013_synth_count_beeps_trivial_easy_000014.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "14": {
+      "name": "000014_synth_count_beeps_trivial_easy_000015.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "15": {
+      "name": "000015_synth_count_beeps_trivial_easy_000016.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "16": {
+      "name": "000016_synth_count_beeps_trivial_easy_000017.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "17": {
+      "name": "000017_synth_count_beeps_trivial_easy_000018.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "18": {
+      "name": "000018_synth_count_beeps_trivial_easy_000019.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "19": {
+      "name": "000019_synth_count_beeps_trivial_easy_000020.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "20": {
+      "name": "000020_synth_count_beeps_trivial_easy_000021.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "21": {
+      "name": "000021_synth_count_beeps_trivial_easy_000022.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "22": {
+      "name": "000022_synth_count_beeps_trivial_easy_000023.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "23": {
+      "name": "000023_synth_count_beeps_trivial_easy_000024.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "24": {
+      "name": "000024_synth_count_beeps_trivial_easy_000025.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "25": {
+      "name": "000025_synth_count_beeps_trivial_easy_000026.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "26": {
+      "name": "000026_synth_count_beeps_trivial_easy_000027.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "27": {
+      "name": "000027_synth_count_beeps_trivial_easy_000028.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "28": {
+      "name": "000028_synth_count_beeps_trivial_easy_000029.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "29": {
+      "name": "000029_synth_count_beeps_trivial_easy_000030.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "30": {
+      "name": "000030_synth_count_beeps_trivial_easy_000031.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "31": {
+      "name": "000031_synth_count_beeps_trivial_easy_000032.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "32": {
+      "name": "000032_synth_count_beeps_trivial_easy_000033.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "33": {
+      "name": "000033_synth_count_beeps_trivial_easy_000034.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "34": {
+      "name": "000034_synth_count_beeps_trivial_easy_000035.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "35": {
+      "name": "000035_synth_count_beeps_trivial_easy_000036.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "36": {
+      "name": "000036_synth_count_beeps_trivial_easy_000037.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "37": {
+      "name": "000037_synth_count_beeps_trivial_easy_000038.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "38": {
+      "name": "000038_synth_count_beeps_trivial_easy_000039.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "39": {
+      "name": "000039_synth_count_beeps_trivial_easy_000040.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "40": {
+      "name": "000040_synth_count_beeps_trivial_easy_000041.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "41": {
+      "name": "000041_synth_count_beeps_trivial_easy_000042.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "42": {
+      "name": "000042_synth_count_beeps_trivial_easy_000043.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "43": {
+      "name": "000043_synth_count_beeps_trivial_easy_000044.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "44": {
+      "name": "000044_synth_count_beeps_trivial_easy_000045.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "45": {
+      "name": "000045_synth_count_beeps_trivial_easy_000046.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "46": {
+      "name": "000046_synth_count_beeps_trivial_easy_000047.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "47": {
+      "name": "000047_synth_count_beeps_trivial_easy_000048.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "48": {
+      "name": "000048_synth_count_beeps_trivial_easy_000049.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "49": {
+      "name": "000049_synth_count_beeps_trivial_easy_000050.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "50": {
+      "name": "000050_synth_count_beeps_trivial_easy_000051.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "51": {
+      "name": "000051_synth_count_beeps_trivial_easy_000052.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "52": {
+      "name": "000052_synth_count_beeps_trivial_easy_000053.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "53": {
+      "name": "000053_synth_count_beeps_trivial_easy_000054.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "54": {
+      "name": "000054_synth_count_beeps_trivial_easy_000055.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "55": {
+      "name": "000055_synth_count_beeps_trivial_easy_000056.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "56": {
+      "name": "000056_synth_count_beeps_trivial_easy_000057.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "57": {
+      "name": "000057_synth_count_beeps_trivial_easy_000058.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "58": {
+      "name": "000058_synth_count_beeps_trivial_easy_000059.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "59": {
+      "name": "000059_synth_count_beeps_trivial_easy_000060.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "60": {
+      "name": "000060_synth_count_beeps_trivial_easy_000061.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "61": {
+      "name": "000061_synth_count_beeps_trivial_easy_000062.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "62": {
+      "name": "000062_synth_count_beeps_trivial_easy_000063.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "63": {
+      "name": "000063_synth_count_beeps_trivial_easy_000064.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "64": {
+      "name": "000064_synth_count_beeps_trivial_easy_000065.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "65": {
+      "name": "000065_synth_count_beeps_trivial_easy_000066.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "66": {
+      "name": "000066_synth_count_beeps_trivial_easy_000067.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "67": {
+      "name": "000067_synth_count_beeps_trivial_easy_000068.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "68": {
+      "name": "000068_synth_count_beeps_trivial_easy_000069.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "69": {
+      "name": "000069_synth_count_beeps_trivial_easy_000070.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "70": {
+      "name": "000070_synth_count_beeps_trivial_easy_000071.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "71": {
+      "name": "000071_synth_count_beeps_trivial_easy_000072.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "72": {
+      "name": "000072_synth_count_beeps_trivial_easy_000073.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "73": {
+      "name": "000073_synth_count_beeps_trivial_easy_000074.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "74": {
+      "name": "000074_synth_count_beeps_trivial_easy_000075.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "75": {
+      "name": "000075_synth_count_beeps_trivial_easy_000076.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "76": {
+      "name": "000076_synth_count_beeps_trivial_easy_000077.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "77": {
+      "name": "000077_synth_count_beeps_trivial_easy_000078.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "78": {
+      "name": "000078_synth_count_beeps_trivial_easy_000079.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "79": {
+      "name": "000079_synth_count_beeps_trivial_easy_000080.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "80": {
+      "name": "000080_synth_count_beeps_trivial_easy_000081.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "81": {
+      "name": "000081_synth_count_beeps_trivial_easy_000082.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "82": {
+      "name": "000082_synth_count_beeps_trivial_easy_000083.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "83": {
+      "name": "000083_synth_count_beeps_trivial_easy_000084.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "84": {
+      "name": "000084_synth_count_beeps_trivial_easy_000085.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "85": {
+      "name": "000085_synth_count_beeps_trivial_easy_000086.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "86": {
+      "name": "000086_synth_count_beeps_trivial_easy_000087.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "87": {
+      "name": "000087_synth_count_beeps_trivial_easy_000088.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "88": {
+      "name": "000088_synth_count_beeps_trivial_easy_000089.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "89": {
+      "name": "000089_synth_count_beeps_trivial_easy_000090.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "90": {
+      "name": "000090_synth_count_beeps_trivial_easy_000091.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "91": {
+      "name": "000091_synth_count_beeps_trivial_easy_000092.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. three beeps\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "92": {
+      "name": "000092_synth_count_beeps_trivial_easy_000093.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "93": {
+      "name": "000093_synth_count_beeps_trivial_easy_000094.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "94": {
+      "name": "000094_synth_count_beeps_trivial_easy_000095.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "95": {
+      "name": "000095_synth_count_beeps_trivial_easy_000096.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. two beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "96": {
+      "name": "000096_synth_count_beeps_trivial_easy_000097.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. three beeps\nC. one beep\n\nReturn only the option label from: A, B, C.",
+      "output": "C"
+    },
+    "97": {
+      "name": "000097_synth_count_beeps_trivial_easy_000098.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. one beep\nB. two beeps\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    },
+    "98": {
+      "name": "000098_synth_count_beeps_trivial_easy_000099.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. three beeps\nB. one beep\nC. two beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "A"
+    },
+    "99": {
+      "name": "000099_synth_count_beeps_trivial_easy_000100.wav",
+      "prompt": "How many beeps did you hear?\n\nChoose exactly one option.\nA. two beeps\nB. one beep\nC. three beeps\n\nReturn only the option label from: A, B, C.",
+      "output": "B"
+    }
+  }
+}

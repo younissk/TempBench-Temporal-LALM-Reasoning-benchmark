@@ -1,0 +1,19 @@
+{
+  "run_id": "20260325_082635",
+  "task_id": "MCQ-SYNTH-PATTERN-PITCH-TRIVIAL",
+  "model_name": "qwen2-audio-7b-instruct",
+  "model_base": "Qwen/Qwen2-Audio-7B-Instruct",
+  "dataset_path": "data/mcq_synth_pattern_pitch_trivial_easy.jsonl",
+  "audio_root": "data/audio",
+  "examples": 100,
+  "correct": 45,
+  "accuracy": 0.45,
+  "parse_invalid": 0,
+  "missing_predictions": 0,
+  "elapsed_seconds": 11.537256,
+  "average_latency_ms": 115.372565,
+  "started_at_utc": "2026-03-25T08:26:35.769299+00:00",
+  "finished_at_utc": "2026-03-25T08:26:58.236978+00:00",
+  "decisions_path": "results/mcq-synth-pattern-pitch-trivial/mcq-order/qwen2-audio-7b-instruct/20260325_082635/decisions.jsonl",
+  "raw_outputs_path": "results/mcq-synth-pattern-pitch-trivial/mcq-order/qwen2-audio-7b-instruct/20260325_082635/raw_model_outputs.jsonl"
+}

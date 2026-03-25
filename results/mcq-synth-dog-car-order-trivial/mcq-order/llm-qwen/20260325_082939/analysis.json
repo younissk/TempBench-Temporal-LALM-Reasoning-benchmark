@@ -1,0 +1,71 @@
+{
+  "task_id": "MCQ-SYNTH-DOG-CAR-ORDER-TRIVIAL",
+  "model_name": "llm-qwen",
+  "examples": 100,
+  "correct": 50,
+  "accuracy": 0.5,
+  "labels": [
+    "A",
+    "B"
+  ],
+  "answer_distribution": [
+    {
+      "label": "A",
+      "count": 55,
+      "rate": 0.55
+    },
+    {
+      "label": "B",
+      "count": 45,
+      "rate": 0.45
+    }
+  ],
+  "prediction_distribution": [
+    {
+      "label": "A",
+      "count": 45,
+      "rate": 0.45
+    },
+    {
+      "label": "B",
+      "count": 55,
+      "rate": 0.55
+    }
+  ],
+  "by_answer_label": [
+    {
+      "label": "A",
+      "support": 55,
+      "correct": 25,
+      "accuracy": 0.45454545454545453,
+      "predicted_count": 45,
+      "prediction_rate": 0.45
+    },
+    {
+      "label": "B",
+      "support": 45,
+      "correct": 25,
+      "accuracy": 0.5555555555555556,
+      "predicted_count": 55,
+      "prediction_rate": 0.55
+    }
+  ],
+  "by_n_options": [
+    {
+      "n_options": 2,
+      "examples": 100,
+      "correct": 50,
+      "accuracy": 0.5
+    }
+  ],
+  "by_answer_type": [
+    {
+      "answer_type": "event",
+      "examples": 100,
+      "correct": 50,
+      "accuracy": 0.5
+    }
+  ],
+  "answer_entropy": 0.9927744539878083,
+  "prediction_entropy": 0.9927744539878083
+}

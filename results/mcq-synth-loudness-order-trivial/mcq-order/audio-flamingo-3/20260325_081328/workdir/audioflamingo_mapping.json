@@ -1,0 +1,2202 @@
+{
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000000_synth_loudness_order_trivial_easy_000001.wav": {
+    "index": 0,
+    "fallback_output_id": "0",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000001",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000001.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000001_synth_loudness_order_trivial_easy_000002.wav": {
+    "index": 1,
+    "fallback_output_id": "1",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000002",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000002.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000002_synth_loudness_order_trivial_easy_000003.wav": {
+    "index": 2,
+    "fallback_output_id": "2",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000003",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000003.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000003_synth_loudness_order_trivial_easy_000004.wav": {
+    "index": 3,
+    "fallback_output_id": "3",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000004",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000004.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000004_synth_loudness_order_trivial_easy_000005.wav": {
+    "index": 4,
+    "fallback_output_id": "4",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000005",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000005.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000005_synth_loudness_order_trivial_easy_000006.wav": {
+    "index": 5,
+    "fallback_output_id": "5",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000006",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000006.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000006_synth_loudness_order_trivial_easy_000007.wav": {
+    "index": 6,
+    "fallback_output_id": "6",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000007",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000007.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000007_synth_loudness_order_trivial_easy_000008.wav": {
+    "index": 7,
+    "fallback_output_id": "7",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000008",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000008.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000008_synth_loudness_order_trivial_easy_000009.wav": {
+    "index": 8,
+    "fallback_output_id": "8",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000009",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000009.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000009_synth_loudness_order_trivial_easy_000010.wav": {
+    "index": 9,
+    "fallback_output_id": "9",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000010",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000010.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000010_synth_loudness_order_trivial_easy_000011.wav": {
+    "index": 10,
+    "fallback_output_id": "10",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000011",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000011.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000011_synth_loudness_order_trivial_easy_000012.wav": {
+    "index": 11,
+    "fallback_output_id": "11",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000012",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000012.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000012_synth_loudness_order_trivial_easy_000013.wav": {
+    "index": 12,
+    "fallback_output_id": "12",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000013",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000013.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000013_synth_loudness_order_trivial_easy_000014.wav": {
+    "index": 13,
+    "fallback_output_id": "13",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000014",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000014.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000014_synth_loudness_order_trivial_easy_000015.wav": {
+    "index": 14,
+    "fallback_output_id": "14",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000015",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000015.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000015_synth_loudness_order_trivial_easy_000016.wav": {
+    "index": 15,
+    "fallback_output_id": "15",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000016",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000016.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000016_synth_loudness_order_trivial_easy_000017.wav": {
+    "index": 16,
+    "fallback_output_id": "16",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000017",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000017.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000017_synth_loudness_order_trivial_easy_000018.wav": {
+    "index": 17,
+    "fallback_output_id": "17",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000018",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000018.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000018_synth_loudness_order_trivial_easy_000019.wav": {
+    "index": 18,
+    "fallback_output_id": "18",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000019",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000019.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000019_synth_loudness_order_trivial_easy_000020.wav": {
+    "index": 19,
+    "fallback_output_id": "19",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000020",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000020.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000020_synth_loudness_order_trivial_easy_000021.wav": {
+    "index": 20,
+    "fallback_output_id": "20",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000021",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000021.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000021_synth_loudness_order_trivial_easy_000022.wav": {
+    "index": 21,
+    "fallback_output_id": "21",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000022",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000022.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000022_synth_loudness_order_trivial_easy_000023.wav": {
+    "index": 22,
+    "fallback_output_id": "22",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000023",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000023.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000023_synth_loudness_order_trivial_easy_000024.wav": {
+    "index": 23,
+    "fallback_output_id": "23",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000024",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000024.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000024_synth_loudness_order_trivial_easy_000025.wav": {
+    "index": 24,
+    "fallback_output_id": "24",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000025",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000025.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000025_synth_loudness_order_trivial_easy_000026.wav": {
+    "index": 25,
+    "fallback_output_id": "25",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000026",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000026.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000026_synth_loudness_order_trivial_easy_000027.wav": {
+    "index": 26,
+    "fallback_output_id": "26",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000027",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000027.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000027_synth_loudness_order_trivial_easy_000028.wav": {
+    "index": 27,
+    "fallback_output_id": "27",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000028",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000028.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000028_synth_loudness_order_trivial_easy_000029.wav": {
+    "index": 28,
+    "fallback_output_id": "28",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000029",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000029.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000029_synth_loudness_order_trivial_easy_000030.wav": {
+    "index": 29,
+    "fallback_output_id": "29",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000030",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000030.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000030_synth_loudness_order_trivial_easy_000031.wav": {
+    "index": 30,
+    "fallback_output_id": "30",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000031",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000031.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000031_synth_loudness_order_trivial_easy_000032.wav": {
+    "index": 31,
+    "fallback_output_id": "31",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000032",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000032.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000032_synth_loudness_order_trivial_easy_000033.wav": {
+    "index": 32,
+    "fallback_output_id": "32",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000033",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000033.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000033_synth_loudness_order_trivial_easy_000034.wav": {
+    "index": 33,
+    "fallback_output_id": "33",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000034",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000034.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000034_synth_loudness_order_trivial_easy_000035.wav": {
+    "index": 34,
+    "fallback_output_id": "34",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000035",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000035.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000035_synth_loudness_order_trivial_easy_000036.wav": {
+    "index": 35,
+    "fallback_output_id": "35",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000036",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000036.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000036_synth_loudness_order_trivial_easy_000037.wav": {
+    "index": 36,
+    "fallback_output_id": "36",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000037",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000037.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000037_synth_loudness_order_trivial_easy_000038.wav": {
+    "index": 37,
+    "fallback_output_id": "37",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000038",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000038.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000038_synth_loudness_order_trivial_easy_000039.wav": {
+    "index": 38,
+    "fallback_output_id": "38",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000039",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000039.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000039_synth_loudness_order_trivial_easy_000040.wav": {
+    "index": 39,
+    "fallback_output_id": "39",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000040",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000040.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000040_synth_loudness_order_trivial_easy_000041.wav": {
+    "index": 40,
+    "fallback_output_id": "40",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000041",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000041.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000041_synth_loudness_order_trivial_easy_000042.wav": {
+    "index": 41,
+    "fallback_output_id": "41",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000042",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000042.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000042_synth_loudness_order_trivial_easy_000043.wav": {
+    "index": 42,
+    "fallback_output_id": "42",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000043",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000043.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000043_synth_loudness_order_trivial_easy_000044.wav": {
+    "index": 43,
+    "fallback_output_id": "43",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000044",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000044.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000044_synth_loudness_order_trivial_easy_000045.wav": {
+    "index": 44,
+    "fallback_output_id": "44",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000045",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000045.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000045_synth_loudness_order_trivial_easy_000046.wav": {
+    "index": 45,
+    "fallback_output_id": "45",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000046",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000046.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000046_synth_loudness_order_trivial_easy_000047.wav": {
+    "index": 46,
+    "fallback_output_id": "46",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000047",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000047.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000047_synth_loudness_order_trivial_easy_000048.wav": {
+    "index": 47,
+    "fallback_output_id": "47",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000048",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000048.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000048_synth_loudness_order_trivial_easy_000049.wav": {
+    "index": 48,
+    "fallback_output_id": "48",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000049",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000049.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000049_synth_loudness_order_trivial_easy_000050.wav": {
+    "index": 49,
+    "fallback_output_id": "49",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000050",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000050.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000050_synth_loudness_order_trivial_easy_000051.wav": {
+    "index": 50,
+    "fallback_output_id": "50",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000051",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000051.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000051_synth_loudness_order_trivial_easy_000052.wav": {
+    "index": 51,
+    "fallback_output_id": "51",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000052",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000052.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000052_synth_loudness_order_trivial_easy_000053.wav": {
+    "index": 52,
+    "fallback_output_id": "52",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000053",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000053.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000053_synth_loudness_order_trivial_easy_000054.wav": {
+    "index": 53,
+    "fallback_output_id": "53",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000054",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000054.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000054_synth_loudness_order_trivial_easy_000055.wav": {
+    "index": 54,
+    "fallback_output_id": "54",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000055",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000055.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000055_synth_loudness_order_trivial_easy_000056.wav": {
+    "index": 55,
+    "fallback_output_id": "55",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000056",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000056.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000056_synth_loudness_order_trivial_easy_000057.wav": {
+    "index": 56,
+    "fallback_output_id": "56",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000057",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000057.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000057_synth_loudness_order_trivial_easy_000058.wav": {
+    "index": 57,
+    "fallback_output_id": "57",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000058",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000058.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000058_synth_loudness_order_trivial_easy_000059.wav": {
+    "index": 58,
+    "fallback_output_id": "58",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000059",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000059.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000059_synth_loudness_order_trivial_easy_000060.wav": {
+    "index": 59,
+    "fallback_output_id": "59",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000060",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000060.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000060_synth_loudness_order_trivial_easy_000061.wav": {
+    "index": 60,
+    "fallback_output_id": "60",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000061",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000061.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000061_synth_loudness_order_trivial_easy_000062.wav": {
+    "index": 61,
+    "fallback_output_id": "61",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000062",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000062.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000062_synth_loudness_order_trivial_easy_000063.wav": {
+    "index": 62,
+    "fallback_output_id": "62",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000063",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000063.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000063_synth_loudness_order_trivial_easy_000064.wav": {
+    "index": 63,
+    "fallback_output_id": "63",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000064",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000064.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000064_synth_loudness_order_trivial_easy_000065.wav": {
+    "index": 64,
+    "fallback_output_id": "64",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000065",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000065.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000065_synth_loudness_order_trivial_easy_000066.wav": {
+    "index": 65,
+    "fallback_output_id": "65",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000066",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000066.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000066_synth_loudness_order_trivial_easy_000067.wav": {
+    "index": 66,
+    "fallback_output_id": "66",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000067",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000067.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000067_synth_loudness_order_trivial_easy_000068.wav": {
+    "index": 67,
+    "fallback_output_id": "67",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000068",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000068.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000068_synth_loudness_order_trivial_easy_000069.wav": {
+    "index": 68,
+    "fallback_output_id": "68",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000069",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000069.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000069_synth_loudness_order_trivial_easy_000070.wav": {
+    "index": 69,
+    "fallback_output_id": "69",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000070",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000070.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000070_synth_loudness_order_trivial_easy_000071.wav": {
+    "index": 70,
+    "fallback_output_id": "70",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000071",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000071.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000071_synth_loudness_order_trivial_easy_000072.wav": {
+    "index": 71,
+    "fallback_output_id": "71",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000072",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000072.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000072_synth_loudness_order_trivial_easy_000073.wav": {
+    "index": 72,
+    "fallback_output_id": "72",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000073",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000073.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000073_synth_loudness_order_trivial_easy_000074.wav": {
+    "index": 73,
+    "fallback_output_id": "73",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000074",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000074.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000074_synth_loudness_order_trivial_easy_000075.wav": {
+    "index": 74,
+    "fallback_output_id": "74",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000075",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000075.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000075_synth_loudness_order_trivial_easy_000076.wav": {
+    "index": 75,
+    "fallback_output_id": "75",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000076",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000076.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000076_synth_loudness_order_trivial_easy_000077.wav": {
+    "index": 76,
+    "fallback_output_id": "76",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000077",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000077.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000077_synth_loudness_order_trivial_easy_000078.wav": {
+    "index": 77,
+    "fallback_output_id": "77",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000078",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000078.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000078_synth_loudness_order_trivial_easy_000079.wav": {
+    "index": 78,
+    "fallback_output_id": "78",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000079",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000079.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000079_synth_loudness_order_trivial_easy_000080.wav": {
+    "index": 79,
+    "fallback_output_id": "79",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000080",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000080.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000080_synth_loudness_order_trivial_easy_000081.wav": {
+    "index": 80,
+    "fallback_output_id": "80",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000081",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000081.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000081_synth_loudness_order_trivial_easy_000082.wav": {
+    "index": 81,
+    "fallback_output_id": "81",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000082",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000082.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000082_synth_loudness_order_trivial_easy_000083.wav": {
+    "index": 82,
+    "fallback_output_id": "82",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000083",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000083.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000083_synth_loudness_order_trivial_easy_000084.wav": {
+    "index": 83,
+    "fallback_output_id": "83",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000084",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000084.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000084_synth_loudness_order_trivial_easy_000085.wav": {
+    "index": 84,
+    "fallback_output_id": "84",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000085",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000085.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000085_synth_loudness_order_trivial_easy_000086.wav": {
+    "index": 85,
+    "fallback_output_id": "85",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000086",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000086.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000086_synth_loudness_order_trivial_easy_000087.wav": {
+    "index": 86,
+    "fallback_output_id": "86",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000087",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000087.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000087_synth_loudness_order_trivial_easy_000088.wav": {
+    "index": 87,
+    "fallback_output_id": "87",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000088",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000088.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000088_synth_loudness_order_trivial_easy_000089.wav": {
+    "index": 88,
+    "fallback_output_id": "88",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000089",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000089.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000089_synth_loudness_order_trivial_easy_000090.wav": {
+    "index": 89,
+    "fallback_output_id": "89",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000090",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000090.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000090_synth_loudness_order_trivial_easy_000091.wav": {
+    "index": 90,
+    "fallback_output_id": "90",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000091",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000091.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000091_synth_loudness_order_trivial_easy_000092.wav": {
+    "index": 91,
+    "fallback_output_id": "91",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000092",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000092.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000092_synth_loudness_order_trivial_easy_000093.wav": {
+    "index": 92,
+    "fallback_output_id": "92",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000093",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000093.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000093_synth_loudness_order_trivial_easy_000094.wav": {
+    "index": 93,
+    "fallback_output_id": "93",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000094",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000094.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000094_synth_loudness_order_trivial_easy_000095.wav": {
+    "index": 94,
+    "fallback_output_id": "94",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000095",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000095.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000095_synth_loudness_order_trivial_easy_000096.wav": {
+    "index": 95,
+    "fallback_output_id": "95",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000096",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000096.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000096_synth_loudness_order_trivial_easy_000097.wav": {
+    "index": 96,
+    "fallback_output_id": "96",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000097",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000097.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000097_synth_loudness_order_trivial_easy_000098.wav": {
+    "index": 97,
+    "fallback_output_id": "97",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000098",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000098.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "B",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000098_synth_loudness_order_trivial_easy_000099.wav": {
+    "index": 98,
+    "fallback_output_id": "98",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000099",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000099.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the loud beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the loud beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the quiet beep",
+        "type": "event"
+      }
+    ]
+  },
+  "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links/000099_synth_loudness_order_trivial_easy_000100.wav": {
+    "index": 99,
+    "fallback_output_id": "99",
+    "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+    "example_id": "synth_loudness_order_trivial_easy_000100",
+    "audio_filename": "synthetic/loudness_order_trivial/easy/synth_loudness_order_trivial_easy_000100.wav",
+    "question": "You will hear a loud beep and a quiet beep. Which one happened first?",
+    "answer_label": "A",
+    "answer_text": "the quiet beep",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quiet beep",
+        "type": "event"
+      },
+      {
+        "label": "B",
+        "text": "the loud beep",
+        "type": "event"
+      }
+    ]
+  }
+}

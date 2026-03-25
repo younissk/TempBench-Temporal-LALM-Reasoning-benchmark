@@ -1,0 +1,508 @@
+{
+  "dataset_path": "data/audio",
+  "split": "test",
+  "split_path": "/home/fs73062/younissk01/TACoBeLAL/results/mcq-synth-loudness-order-trivial/mcq-order/audio-flamingo-3/20260325_081328/workdir/audio_links",
+  "flamingo_task": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+  "data": {
+    "0": {
+      "name": "000000_synth_loudness_order_trivial_easy_000001.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "1": {
+      "name": "000001_synth_loudness_order_trivial_easy_000002.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "2": {
+      "name": "000002_synth_loudness_order_trivial_easy_000003.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "3": {
+      "name": "000003_synth_loudness_order_trivial_easy_000004.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "4": {
+      "name": "000004_synth_loudness_order_trivial_easy_000005.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "5": {
+      "name": "000005_synth_loudness_order_trivial_easy_000006.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "6": {
+      "name": "000006_synth_loudness_order_trivial_easy_000007.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "7": {
+      "name": "000007_synth_loudness_order_trivial_easy_000008.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "8": {
+      "name": "000008_synth_loudness_order_trivial_easy_000009.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "9": {
+      "name": "000009_synth_loudness_order_trivial_easy_000010.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "10": {
+      "name": "000010_synth_loudness_order_trivial_easy_000011.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "11": {
+      "name": "000011_synth_loudness_order_trivial_easy_000012.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "12": {
+      "name": "000012_synth_loudness_order_trivial_easy_000013.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "13": {
+      "name": "000013_synth_loudness_order_trivial_easy_000014.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "14": {
+      "name": "000014_synth_loudness_order_trivial_easy_000015.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "15": {
+      "name": "000015_synth_loudness_order_trivial_easy_000016.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "16": {
+      "name": "000016_synth_loudness_order_trivial_easy_000017.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "17": {
+      "name": "000017_synth_loudness_order_trivial_easy_000018.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "18": {
+      "name": "000018_synth_loudness_order_trivial_easy_000019.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "19": {
+      "name": "000019_synth_loudness_order_trivial_easy_000020.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "20": {
+      "name": "000020_synth_loudness_order_trivial_easy_000021.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "21": {
+      "name": "000021_synth_loudness_order_trivial_easy_000022.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "22": {
+      "name": "000022_synth_loudness_order_trivial_easy_000023.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "23": {
+      "name": "000023_synth_loudness_order_trivial_easy_000024.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "24": {
+      "name": "000024_synth_loudness_order_trivial_easy_000025.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "25": {
+      "name": "000025_synth_loudness_order_trivial_easy_000026.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "26": {
+      "name": "000026_synth_loudness_order_trivial_easy_000027.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "27": {
+      "name": "000027_synth_loudness_order_trivial_easy_000028.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "28": {
+      "name": "000028_synth_loudness_order_trivial_easy_000029.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "29": {
+      "name": "000029_synth_loudness_order_trivial_easy_000030.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "30": {
+      "name": "000030_synth_loudness_order_trivial_easy_000031.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "31": {
+      "name": "000031_synth_loudness_order_trivial_easy_000032.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "32": {
+      "name": "000032_synth_loudness_order_trivial_easy_000033.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "33": {
+      "name": "000033_synth_loudness_order_trivial_easy_000034.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "34": {
+      "name": "000034_synth_loudness_order_trivial_easy_000035.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "35": {
+      "name": "000035_synth_loudness_order_trivial_easy_000036.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "36": {
+      "name": "000036_synth_loudness_order_trivial_easy_000037.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "37": {
+      "name": "000037_synth_loudness_order_trivial_easy_000038.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "38": {
+      "name": "000038_synth_loudness_order_trivial_easy_000039.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "39": {
+      "name": "000039_synth_loudness_order_trivial_easy_000040.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "40": {
+      "name": "000040_synth_loudness_order_trivial_easy_000041.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "41": {
+      "name": "000041_synth_loudness_order_trivial_easy_000042.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "42": {
+      "name": "000042_synth_loudness_order_trivial_easy_000043.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "43": {
+      "name": "000043_synth_loudness_order_trivial_easy_000044.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "44": {
+      "name": "000044_synth_loudness_order_trivial_easy_000045.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "45": {
+      "name": "000045_synth_loudness_order_trivial_easy_000046.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "46": {
+      "name": "000046_synth_loudness_order_trivial_easy_000047.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "47": {
+      "name": "000047_synth_loudness_order_trivial_easy_000048.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "48": {
+      "name": "000048_synth_loudness_order_trivial_easy_000049.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "49": {
+      "name": "000049_synth_loudness_order_trivial_easy_000050.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "50": {
+      "name": "000050_synth_loudness_order_trivial_easy_000051.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "51": {
+      "name": "000051_synth_loudness_order_trivial_easy_000052.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "52": {
+      "name": "000052_synth_loudness_order_trivial_easy_000053.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "53": {
+      "name": "000053_synth_loudness_order_trivial_easy_000054.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "54": {
+      "name": "000054_synth_loudness_order_trivial_easy_000055.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "55": {
+      "name": "000055_synth_loudness_order_trivial_easy_000056.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "56": {
+      "name": "000056_synth_loudness_order_trivial_easy_000057.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "57": {
+      "name": "000057_synth_loudness_order_trivial_easy_000058.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "58": {
+      "name": "000058_synth_loudness_order_trivial_easy_000059.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "59": {
+      "name": "000059_synth_loudness_order_trivial_easy_000060.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "60": {
+      "name": "000060_synth_loudness_order_trivial_easy_000061.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "61": {
+      "name": "000061_synth_loudness_order_trivial_easy_000062.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "62": {
+      "name": "000062_synth_loudness_order_trivial_easy_000063.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "63": {
+      "name": "000063_synth_loudness_order_trivial_easy_000064.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "64": {
+      "name": "000064_synth_loudness_order_trivial_easy_000065.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "65": {
+      "name": "000065_synth_loudness_order_trivial_easy_000066.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "66": {
+      "name": "000066_synth_loudness_order_trivial_easy_000067.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "67": {
+      "name": "000067_synth_loudness_order_trivial_easy_000068.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "68": {
+      "name": "000068_synth_loudness_order_trivial_easy_000069.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "69": {
+      "name": "000069_synth_loudness_order_trivial_easy_000070.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "70": {
+      "name": "000070_synth_loudness_order_trivial_easy_000071.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "71": {
+      "name": "000071_synth_loudness_order_trivial_easy_000072.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "72": {
+      "name": "000072_synth_loudness_order_trivial_easy_000073.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "73": {
+      "name": "000073_synth_loudness_order_trivial_easy_000074.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "74": {
+      "name": "000074_synth_loudness_order_trivial_easy_000075.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "75": {
+      "name": "000075_synth_loudness_order_trivial_easy_000076.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "76": {
+      "name": "000076_synth_loudness_order_trivial_easy_000077.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "77": {
+      "name": "000077_synth_loudness_order_trivial_easy_000078.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "78": {
+      "name": "000078_synth_loudness_order_trivial_easy_000079.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "79": {
+      "name": "000079_synth_loudness_order_trivial_easy_000080.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "80": {
+      "name": "000080_synth_loudness_order_trivial_easy_000081.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "81": {
+      "name": "000081_synth_loudness_order_trivial_easy_000082.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "82": {
+      "name": "000082_synth_loudness_order_trivial_easy_000083.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "83": {
+      "name": "000083_synth_loudness_order_trivial_easy_000084.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "84": {
+      "name": "000084_synth_loudness_order_trivial_easy_000085.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "85": {
+      "name": "000085_synth_loudness_order_trivial_easy_000086.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "86": {
+      "name": "000086_synth_loudness_order_trivial_easy_000087.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "87": {
+      "name": "000087_synth_loudness_order_trivial_easy_000088.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "88": {
+      "name": "000088_synth_loudness_order_trivial_easy_000089.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "89": {
+      "name": "000089_synth_loudness_order_trivial_easy_000090.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "90": {
+      "name": "000090_synth_loudness_order_trivial_easy_000091.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "91": {
+      "name": "000091_synth_loudness_order_trivial_easy_000092.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "92": {
+      "name": "000092_synth_loudness_order_trivial_easy_000093.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "93": {
+      "name": "000093_synth_loudness_order_trivial_easy_000094.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "94": {
+      "name": "000094_synth_loudness_order_trivial_easy_000095.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "95": {
+      "name": "000095_synth_loudness_order_trivial_easy_000096.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "96": {
+      "name": "000096_synth_loudness_order_trivial_easy_000097.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "97": {
+      "name": "000097_synth_loudness_order_trivial_easy_000098.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "B"
+    },
+    "98": {
+      "name": "000098_synth_loudness_order_trivial_easy_000099.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the loud beep\nB. the quiet beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    },
+    "99": {
+      "name": "000099_synth_loudness_order_trivial_easy_000100.wav",
+      "prompt": "You will hear a loud beep and a quiet beep. Which one happened first?\n\nChoose exactly one option.\nA. the quiet beep\nB. the loud beep\n\nReturn only the option label from: A, B.",
+      "output": "A"
+    }
+  }
+}

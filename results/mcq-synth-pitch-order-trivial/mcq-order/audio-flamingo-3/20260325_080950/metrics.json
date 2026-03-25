@@ -1,0 +1,20 @@
+{
+  "run_id": "20260325_080950",
+  "task_id": "MCQ-SYNTH-PITCH-ORDER-TRIVIAL",
+  "model_name": "audio-flamingo-3",
+  "model_base": "nvidia/audio-flamingo-3",
+  "dataset_path": "data/mcq_synth_pitch_order_trivial_easy.jsonl",
+  "audio_root": "data/audio",
+  "audioflamingo_repo": "external/audio-flamingo",
+  "examples": 100,
+  "correct": 50,
+  "accuracy": 0.5,
+  "parse_invalid": 0,
+  "missing_predictions": 0,
+  "elapsed_seconds": 66.693245,
+  "average_latency_ms": 666.932449,
+  "started_at_utc": "2026-03-25T08:09:50.404827+00:00",
+  "finished_at_utc": "2026-03-25T08:10:57.176467+00:00",
+  "decisions_path": "results/mcq-synth-pitch-order-trivial/mcq-order/audio-flamingo-3/20260325_080950/decisions.jsonl",
+  "raw_outputs_path": "results/mcq-synth-pitch-order-trivial/mcq-order/audio-flamingo-3/20260325_080950/raw_model_outputs.jsonl"
+}

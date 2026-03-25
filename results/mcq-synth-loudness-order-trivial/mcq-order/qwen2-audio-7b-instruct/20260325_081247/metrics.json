@@ -1,0 +1,19 @@
+{
+  "run_id": "20260325_081247",
+  "task_id": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
+  "model_name": "qwen2-audio-7b-instruct",
+  "model_base": "Qwen/Qwen2-Audio-7B-Instruct",
+  "dataset_path": "data/mcq_synth_loudness_order_trivial_easy.jsonl",
+  "audio_root": "data/audio",
+  "examples": 100,
+  "correct": 55,
+  "accuracy": 0.55,
+  "parse_invalid": 0,
+  "missing_predictions": 0,
+  "elapsed_seconds": 11.74069,
+  "average_latency_ms": 117.4069,
+  "started_at_utc": "2026-03-25T08:12:47.428797+00:00",
+  "finished_at_utc": "2026-03-25T08:13:09.731709+00:00",
+  "decisions_path": "results/mcq-synth-loudness-order-trivial/mcq-order/qwen2-audio-7b-instruct/20260325_081247/decisions.jsonl",
+  "raw_outputs_path": "results/mcq-synth-loudness-order-trivial/mcq-order/qwen2-audio-7b-instruct/20260325_081247/raw_model_outputs.jsonl"
+}

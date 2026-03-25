@@ -1,0 +1,19 @@
+{
+  "run_id": "20260325_081946",
+  "task_id": "MCQ-SYNTH-COUNT-BEEPS-TRIVIAL",
+  "model_name": "qwen2-audio-7b-instruct",
+  "model_base": "Qwen/Qwen2-Audio-7B-Instruct",
+  "dataset_path": "data/mcq_synth_count_beeps_trivial_easy.jsonl",
+  "audio_root": "data/audio",
+  "examples": 100,
+  "correct": 31,
+  "accuracy": 0.31,
+  "parse_invalid": 0,
+  "missing_predictions": 0,
+  "elapsed_seconds": 12.268624,
+  "average_latency_ms": 122.686242,
+  "started_at_utc": "2026-03-25T08:19:46.682672+00:00",
+  "finished_at_utc": "2026-03-25T08:20:09.506063+00:00",
+  "decisions_path": "results/mcq-synth-count-beeps-trivial/mcq-order/qwen2-audio-7b-instruct/20260325_081946/decisions.jsonl",
+  "raw_outputs_path": "results/mcq-synth-count-beeps-trivial/mcq-order/qwen2-audio-7b-instruct/20260325_081946/raw_model_outputs.jsonl"
+}

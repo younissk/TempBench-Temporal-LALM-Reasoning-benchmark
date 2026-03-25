@@ -1,0 +1,19 @@
+{
+  "run_id": "20260325_082248",
+  "task_id": "MCQ-SYNTH-GAP-TRIVIAL",
+  "model_name": "qwen2-audio-7b-instruct",
+  "model_base": "Qwen/Qwen2-Audio-7B-Instruct",
+  "dataset_path": "data/mcq_synth_gap_trivial_easy.jsonl",
+  "audio_root": "data/audio",
+  "examples": 100,
+  "correct": 71,
+  "accuracy": 0.71,
+  "parse_invalid": 0,
+  "missing_predictions": 0,
+  "elapsed_seconds": 11.808094,
+  "average_latency_ms": 118.080939,
+  "started_at_utc": "2026-03-25T08:22:48.976344+00:00",
+  "finished_at_utc": "2026-03-25T08:23:11.375688+00:00",
+  "decisions_path": "results/mcq-synth-gap-trivial/mcq-order/qwen2-audio-7b-instruct/20260325_082248/decisions.jsonl",
+  "raw_outputs_path": "results/mcq-synth-gap-trivial/mcq-order/qwen2-audio-7b-instruct/20260325_082248/raw_model_outputs.jsonl"
+}

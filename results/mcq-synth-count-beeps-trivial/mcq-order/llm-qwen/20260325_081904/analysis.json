@@ -1,0 +1,90 @@
+{
+  "task_id": "MCQ-SYNTH-COUNT-BEEPS-TRIVIAL",
+  "model_name": "llm-qwen",
+  "examples": 100,
+  "correct": 32,
+  "accuracy": 0.32,
+  "labels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "answer_distribution": [
+    {
+      "label": "A",
+      "count": 32,
+      "rate": 0.32
+    },
+    {
+      "label": "B",
+      "count": 39,
+      "rate": 0.39
+    },
+    {
+      "label": "C",
+      "count": 29,
+      "rate": 0.29
+    }
+  ],
+  "prediction_distribution": [
+    {
+      "label": "A",
+      "count": 100,
+      "rate": 1.0
+    },
+    {
+      "label": "B",
+      "count": 0,
+      "rate": 0.0
+    },
+    {
+      "label": "C",
+      "count": 0,
+      "rate": 0.0
+    }
+  ],
+  "by_answer_label": [
+    {
+      "label": "A",
+      "support": 32,
+      "correct": 32,
+      "accuracy": 1.0,
+      "predicted_count": 100,
+      "prediction_rate": 1.0
+    },
+    {
+      "label": "B",
+      "support": 39,
+      "correct": 0,
+      "accuracy": 0.0,
+      "predicted_count": 0,
+      "prediction_rate": 0.0
+    },
+    {
+      "label": "C",
+      "support": 29,
+      "correct": 0,
+      "accuracy": 0.0,
+      "predicted_count": 0,
+      "prediction_rate": 0.0
+    }
+  ],
+  "by_n_options": [
+    {
+      "n_options": 3,
+      "examples": 100,
+      "correct": 32,
+      "accuracy": 0.32
+    }
+  ],
+  "by_answer_type": [
+    {
+      "answer_type": "count",
+      "examples": 100,
+      "correct": 32,
+      "accuracy": 0.32
+    }
+  ],
+  "answer_entropy": 1.5737348358314516,
+  "prediction_entropy": 0.0
+}

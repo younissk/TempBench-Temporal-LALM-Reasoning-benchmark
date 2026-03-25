@@ -1,0 +1,26 @@
+{
+  "run_id": "20260325_081521",
+  "task_id": "MCQ-SYNTH-DURATION-ORDER-TRIVIAL",
+  "model_name": "llm-qwen",
+  "model_metadata": {
+    "seed": 7,
+    "provider": "huggingface-qwen",
+    "model_id": "Qwen/Qwen2.5-7B-Instruct",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_new_tokens": 16,
+    "prediction_retries": 2,
+    "device_map": "auto",
+    "dtype": "float16",
+    "trust_remote_code": false
+  },
+  "dataset_path": "data/mcq_synth_duration_order_trivial_easy.jsonl",
+  "started_at_utc": "2026-03-25T08:15:21.941625+00:00",
+  "finished_at_utc": "2026-03-25T08:15:37.120637+00:00",
+  "examples": 100,
+  "correct": 50,
+  "accuracy": 0.5,
+  "elapsed_seconds": 15.178991,
+  "average_latency_ms": 151.746113,
+  "decisions_path": "results/mcq-synth-duration-order-trivial/mcq-order/llm-qwen/20260325_081521/decisions.jsonl"
+}
