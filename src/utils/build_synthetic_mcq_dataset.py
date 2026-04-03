@@ -39,7 +39,7 @@ except ImportError:  # pragma: no cover - enables direct script execution
 
 console = Console()
 
-BENCHMARKS = ("time", "pitch", "loudness", "rhythm")
+BENCHMARKS: tuple[str, ...] = ()
 STANDALONE_BENCHMARKS = (
     "pitch_order_trivial",
     "loudness_order_trivial",
@@ -56,10 +56,6 @@ AGGREGATE_TASK_NAME = "synthetic_mcq_benchmark"
 AGGREGATE_DATASET_NAME = "mcq_synth_benchmark.jsonl"
 
 TASK_IDS = {
-    "time": "MCQ-SYNTH-TIME",
-    "pitch": "MCQ-SYNTH-PITCH",
-    "loudness": "MCQ-SYNTH-LOUDNESS",
-    "rhythm": "MCQ-SYNTH-RHYTHM",
     "pitch_order_trivial": "MCQ-SYNTH-PITCH-ORDER-TRIVIAL",
     "loudness_order_trivial": "MCQ-SYNTH-LOUDNESS-ORDER-TRIVIAL",
     "duration_order_trivial": "MCQ-SYNTH-DURATION-ORDER-TRIVIAL",
@@ -70,10 +66,6 @@ TASK_IDS = {
 }
 
 TASK_NAMES = {
-    "time": "synthetic_time_mcq",
-    "pitch": "synthetic_pitch_mcq",
-    "loudness": "synthetic_loudness_mcq",
-    "rhythm": "synthetic_rhythm_mcq",
     "pitch_order_trivial": "synthetic_pitch_order_trivial_mcq",
     "loudness_order_trivial": "synthetic_loudness_order_trivial_mcq",
     "duration_order_trivial": "synthetic_duration_order_trivial_mcq",
@@ -910,10 +902,6 @@ def _build_split(
     rows: list[dict[str, Any]] = []
     template_counts: Counter[str] = Counter()
     scene_builder = {
-        "time": _time_scene,
-        "pitch": _pitch_scene,
-        "loudness": _loudness_scene,
-        "rhythm": _rhythm_scene,
         "pitch_order_trivial": _pitch_order_trivial_scene,
         "loudness_order_trivial": _loudness_order_trivial_scene,
         "duration_order_trivial": _duration_order_trivial_scene,
@@ -1098,8 +1086,8 @@ def main(
         "--benchmark",
         help=(
             "Benchmark family to build "
-            "(time|pitch|loudness|rhythm|pitch_order_trivial|loudness_order_trivial|"
-            "duration_order_trivial|count_beeps_trivial|gap_trivial|pattern_pitch_trivial|"
+            "(pitch_order_trivial|loudness_order_trivial|duration_order_trivial|"
+            "count_beeps_trivial|gap_trivial|pattern_pitch_trivial|"
             "dog_car_order_trivial|all)."
         ),
     ),
@@ -1144,7 +1132,7 @@ def main(
     ),
 ) -> None:
     selected_benchmarks = (
-        list(BENCHMARKS)
+        list(STANDALONE_BENCHMARKS)
         if benchmark.strip().lower() == "all"
         else _parse_axis(benchmark, allowed=ALL_BENCHMARKS, axis_name="benchmark")
     )

@@ -2,14 +2,6 @@
 	install-dev \
 	install-llm \
 	install-tracking \
-	download-dataset \
-	extract-audio \
-	build-mcq-dataset \
-	build-mcq-synth-benchmark \
-	build-mcq-synth-time \
-	build-mcq-synth-pitch \
-	build-mcq-synth-loudness \
-	build-mcq-synth-rhythm \
 	build-mcq-synth-pitch-order-trivial \
 	build-mcq-synth-loudness-order-trivial \
 	build-mcq-synth-duration-order-trivial \
@@ -17,46 +9,14 @@
 	build-mcq-synth-gap-trivial \
 	build-mcq-synth-pattern-pitch-trivial \
 	build-mcq-synth-dog-car-order-trivial \
-	build-mcq-synth-all \
-	review-mcq-dataset \
-	build-mcq-relation-dataset \
 	build-mcq-safety-dataset \
 	run-benchmark \
-	debug-mcq-bundle \
 	download-audioflamingo \
-	setup-from-scratch \
-	eval-mcq-order-random \
-	eval-mcq-order-openai \
-	eval-mcq-order-qwen \
-	eval-mcq-order-llama \
-	eval-mcq-order-qwen2-audio-smoke \
-	eval-mcq-order-qwen2-audio-full \
-	eval-mcq-order-qwen2-audio-no-audio-smoke \
-	eval-mcq-order-qwen2-audio-no-audio-full \
-	eval-mcq-order-qwen2-5-omni-smoke \
-	eval-mcq-order-qwen2-5-omni-full \
-	eval-mcq-order-qwen2-5-omni-no-audio-smoke \
-	eval-mcq-order-qwen2-5-omni-no-audio-full \
-	eval-mcq-order-voxtral-smoke \
-	eval-mcq-order-voxtral-full \
-	eval-mcq-order-voxtral-no-audio-smoke \
-	eval-mcq-order-voxtral-no-audio-full \
-	eval-mcq-order-audioflamingo-smoke \
-	eval-mcq-order-audioflamingo-full \
-	eval-mcq-order-audioflamingo-no-audio-smoke \
-	eval-mcq-order-audioflamingo-no-audio-full \
 	test
 
 DATA_DIR ?= data
 RESULTS_DIR ?= results
-MCQ_DATASET ?= $(DATA_DIR)/mcq_event_timeline_strong.jsonl
-MCQ_RELATION_DATASET ?= $(DATA_DIR)/mcq_relation_timeline_strong.jsonl
 MCQ_SAFETY_DATASET ?= $(DATA_DIR)/mcq_safety_presence_100.jsonl
-MCQ_SYNTH_BENCHMARK_DATASET ?= $(DATA_DIR)/mcq_synth_benchmark.jsonl
-MCQ_SYNTH_TIME_DATASET ?= $(DATA_DIR)/mcq_synth_time_easy.jsonl
-MCQ_SYNTH_PITCH_DATASET ?= $(DATA_DIR)/mcq_synth_pitch_easy.jsonl
-MCQ_SYNTH_LOUDNESS_DATASET ?= $(DATA_DIR)/mcq_synth_loudness_easy.jsonl
-MCQ_SYNTH_RHYTHM_DATASET ?= $(DATA_DIR)/mcq_synth_rhythm_easy.jsonl
 MCQ_SYNTH_PITCH_ORDER_TRIVIAL_DATASET ?= $(DATA_DIR)/mcq_synth_pitch_order_trivial_easy.jsonl
 MCQ_SYNTH_LOUDNESS_ORDER_TRIVIAL_DATASET ?= $(DATA_DIR)/mcq_synth_loudness_order_trivial_easy.jsonl
 MCQ_SYNTH_DURATION_ORDER_TRIVIAL_DATASET ?= $(DATA_DIR)/mcq_synth_duration_order_trivial_easy.jsonl
@@ -65,17 +25,6 @@ MCQ_SYNTH_GAP_TRIVIAL_DATASET ?= $(DATA_DIR)/mcq_synth_gap_trivial_easy.jsonl
 MCQ_SYNTH_PATTERN_PITCH_TRIVIAL_DATASET ?= $(DATA_DIR)/mcq_synth_pattern_pitch_trivial_easy.jsonl
 MCQ_SYNTH_DOG_CAR_ORDER_TRIVIAL_DATASET ?= $(DATA_DIR)/mcq_synth_dog_car_order_trivial_easy.jsonl
 AUDIO_ROOT ?= $(DATA_DIR)/audio
-AUDIO_ZIP ?= $(DATA_DIR)/audio.zip
-MCQ_REVIEW_LABELS ?= $(RESULTS_DIR)/mcq-order/review/manual_good_bad_labels.jsonl
-MCQ_REVIEW_MIN_OPTIONS ?= 4
-MCQ_REVIEW_MAX_OPTIONS ?= 6
-MCQ_REVIEW_SEMANTIC_DEDUPE ?= 0
-MCQ_REVIEW_SIMILARITY_MODEL ?= sentence-transformers/all-MiniLM-L6-v2
-MCQ_REVIEW_SIMILARITY_THRESHOLD ?= 0.88
-MCQ_REVIEW_SIMILARITY_BATCH ?= 64
-MCQ_REVIEW_HOST ?= 127.0.0.1
-MCQ_REVIEW_PORT ?= 7860
-MCQ_REVIEW_SEMANTIC_ARG := $(if $(filter 1 true yes,$(MCQ_REVIEW_SEMANTIC_DEDUPE)),--semantic-dedupe,--no-semantic-dedupe)
 
 BENCH_TASK ?= mcq-order
 BENCH_MODEL ?= random
@@ -163,94 +112,14 @@ ifneq ($(strip $(WANDB_RUN_NAME)),)
 WAND_ARGS += --wandb-run-name $(WANDB_RUN_NAME)
 endif
 
-install-dev:
-	uv sync --extra dev
-
 install-llm:
 	uv sync --extra llm
 
 install-tracking:
 	uv sync --extra tracking
 
-download-dataset:
-	uv run python src/utils/download_dataset.py --output $(DATA_DIR)
-
-extract-audio:
-	uv run python src/utils/extract_audio_zip.py --zip-path $(AUDIO_ZIP) --output-dir $(AUDIO_ROOT)
-
-build-mcq-dataset:
-	uv run python src/utils/build_timeline_mcq_dataset.py --input $(DATA_DIR)/annotations_strong.csv --output $(MCQ_DATASET)
-
-review-mcq-dataset:
-	uv run python src/utils/review_mcq_order_labels.py \
-		--dataset $(MCQ_DATASET) \
-		--audio-root $(AUDIO_ROOT) \
-		--runs-csv $(RESULTS_DIR)/mcq-order/runs.csv \
-		--labels-output $(MCQ_REVIEW_LABELS) \
-		--min-options $(MCQ_REVIEW_MIN_OPTIONS) \
-		--max-options $(MCQ_REVIEW_MAX_OPTIONS) \
-		$(MCQ_REVIEW_SEMANTIC_ARG) \
-		--similarity-model-id $(MCQ_REVIEW_SIMILARITY_MODEL) \
-		--similarity-threshold $(MCQ_REVIEW_SIMILARITY_THRESHOLD) \
-		--similarity-batch-size $(MCQ_REVIEW_SIMILARITY_BATCH) \
-		--host $(MCQ_REVIEW_HOST) \
-		--port $(MCQ_REVIEW_PORT)
-
-build-mcq-relation-dataset:
-	uv run python src/utils/build_relation_mcq_dataset.py --input $(DATA_DIR)/annotations_strong.csv --output $(MCQ_RELATION_DATASET)
-
 build-mcq-safety-dataset:
 	uv run python src/utils/build_safety_check_dataset.py --input $(DATA_DIR)/annotations_strong.csv --output $(MCQ_SAFETY_DATASET)
-
-build-mcq-synth-benchmark:
-	uv run python src/utils/build_synthetic_mcq_dataset.py \
-		--benchmark all \
-		--difficulty all \
-		--scenes-per-split $(SYNTH_SCENES) \
-		--seed $(SYNTH_SEED) \
-		--audio-root $(AUDIO_ROOT) \
-		--dataset-root $(DATA_DIR) \
-		--generator-version $(SYNTH_GENERATOR_VERSION)
-
-build-mcq-synth-time:
-	uv run python src/utils/build_synthetic_mcq_dataset.py \
-		--benchmark time \
-		--difficulty $(SYNTH_DIFFICULTY) \
-		--scenes-per-split $(SYNTH_SCENES) \
-		--seed $(SYNTH_SEED) \
-		--audio-root $(AUDIO_ROOT) \
-		--dataset-root $(DATA_DIR) \
-		--generator-version $(SYNTH_GENERATOR_VERSION)
-
-build-mcq-synth-pitch:
-	uv run python src/utils/build_synthetic_mcq_dataset.py \
-		--benchmark pitch \
-		--difficulty $(SYNTH_DIFFICULTY) \
-		--scenes-per-split $(SYNTH_SCENES) \
-		--seed $(SYNTH_SEED) \
-		--audio-root $(AUDIO_ROOT) \
-		--dataset-root $(DATA_DIR) \
-		--generator-version $(SYNTH_GENERATOR_VERSION)
-
-build-mcq-synth-loudness:
-	uv run python src/utils/build_synthetic_mcq_dataset.py \
-		--benchmark loudness \
-		--difficulty $(SYNTH_DIFFICULTY) \
-		--scenes-per-split $(SYNTH_SCENES) \
-		--seed $(SYNTH_SEED) \
-		--audio-root $(AUDIO_ROOT) \
-		--dataset-root $(DATA_DIR) \
-		--generator-version $(SYNTH_GENERATOR_VERSION)
-
-build-mcq-synth-rhythm:
-	uv run python src/utils/build_synthetic_mcq_dataset.py \
-		--benchmark rhythm \
-		--difficulty $(SYNTH_DIFFICULTY) \
-		--scenes-per-split $(SYNTH_SCENES) \
-		--seed $(SYNTH_SEED) \
-		--audio-root $(AUDIO_ROOT) \
-		--dataset-root $(DATA_DIR) \
-		--generator-version $(SYNTH_GENERATOR_VERSION)
 
 build-mcq-synth-pitch-order-trivial:
 	uv run python src/utils/build_synthetic_mcq_dataset.py \
@@ -322,16 +191,6 @@ build-mcq-synth-dog-car-order-trivial:
 		--dataset-root $(DATA_DIR) \
 		--generator-version $(SYNTH_GENERATOR_VERSION)
 
-build-mcq-synth-all:
-	uv run python src/utils/build_synthetic_mcq_dataset.py \
-		--benchmark all \
-		--difficulty all \
-		--scenes-per-split $(SYNTH_SCENES) \
-		--seed $(SYNTH_SEED) \
-		--audio-root $(AUDIO_ROOT) \
-		--dataset-root $(DATA_DIR) \
-		--generator-version $(SYNTH_GENERATOR_VERSION)
-
 run-benchmark:
 	uv run python src/utils/run_benchmark.py \
 		--task $(BENCH_TASK) \
@@ -348,111 +207,8 @@ run-benchmark:
 		--wandb-log-every $(BENCH_WANDB_LOG_EVERY) \
 		$(BENCH_ARGS)
 
-debug-mcq-bundle:
-	uv run python src/utils/debug_mcq_underperformance.py \
-		--results-root $(RESULTS_DIR)/mcq-order \
-		--dataset $(MCQ_DATASET) \
-		--output-dir $(RESULTS_DIR)/mcq-order/debug_bundle \
-		--top-k-review 200
-
 download-audioflamingo:
 	uv run python src/utils/setup_audioflamingo.py --repo-url $(AF_REPO_URL) --branch $(AF_BRANCH) --destination $(AF_HOME)
-
-setup-from-scratch: install-dev install-llm install-tracking download-dataset extract-audio build-mcq-dataset download-audioflamingo
-
-eval-mcq-order-random:
-	uv sync --extra tracking
-	uv run python src/utils/evaluate_mcq_order.py --dataset $(MCQ_DATASET) --model random --results-root $(RESULTS_DIR) $(WAND_ARGS)
-
-eval-mcq-order-openai:
-	uv sync --extra llm --extra tracking
-	uv run python src/utils/evaluate_mcq_order.py --dataset $(MCQ_DATASET) --model llm-openai --openai-model gpt-4o-mini --temperature 0 --results-root $(RESULTS_DIR) $(WAND_ARGS)
-
-eval-mcq-order-qwen:
-	uv sync --extra llm --extra tracking
-	uv run python src/utils/evaluate_mcq_order.py \
-		--dataset $(MCQ_DATASET) \
-		--model llm-qwen \
-		--qwen-model-id $(QWEN_MODEL_ID) \
-		--local-dtype $(LOCAL_DTYPE) \
-		--local-device-map $(LOCAL_DEVICE_MAP) \
-		--local-max-new-tokens $(LOCAL_MAX_NEW_TOKENS) \
-		--local-temperature $(LOCAL_TEMPERATURE) \
-		--local-top-p $(LOCAL_TOP_P) \
-		$(LIMIT_ARG) \
-		--results-root $(RESULTS_DIR) \
-		$(WAND_ARGS)
-
-eval-mcq-order-llama:
-	uv sync --extra llm --extra tracking
-	uv run python src/utils/evaluate_mcq_order.py \
-		--dataset $(MCQ_DATASET) \
-		--model llm-llama \
-		--llama-model-id $(LLAMA_MODEL_ID) \
-		--local-dtype $(LOCAL_DTYPE) \
-		--local-device-map $(LOCAL_DEVICE_MAP) \
-		--local-max-new-tokens $(LOCAL_MAX_NEW_TOKENS) \
-		--local-temperature $(LOCAL_TEMPERATURE) \
-		--local-top-p $(LOCAL_TOP_P) \
-		$(LIMIT_ARG) \
-		--results-root $(RESULTS_DIR) \
-		$(WAND_ARGS)
-
-eval-mcq-order-audioflamingo-smoke:
-	uv sync --extra tracking
-	uv run python src/utils/evaluate_mcq_order_audioflamingo.py \
-		--dataset $(MCQ_DATASET) \
-		--audio-root $(AUDIO_ROOT) \
-		--audioflamingo-repo $(AF_HOME) \
-		--model-base $(AF_MODEL_BASE) \
-		--num-gpus $(AF_NUM_GPUS) \
-		--batch-size $(AF_BATCH_SIZE) \
-		--max-new-tokens $(AF_MAX_NEW_TOKENS) \
-		--limit $(AF_SMOKE_LIMIT) \
-		--results-root $(RESULTS_DIR) \
-		$(WAND_ARGS)
-
-eval-mcq-order-audioflamingo-full:
-	uv sync --extra tracking
-	uv run python src/utils/evaluate_mcq_order_audioflamingo.py \
-		--dataset $(MCQ_DATASET) \
-		--audio-root $(AUDIO_ROOT) \
-		--audioflamingo-repo $(AF_HOME) \
-		--model-base $(AF_MODEL_BASE) \
-		--num-gpus $(AF_NUM_GPUS) \
-		--batch-size $(AF_BATCH_SIZE) \
-		--max-new-tokens $(AF_MAX_NEW_TOKENS) \
-		--results-root $(RESULTS_DIR) \
-		$(WAND_ARGS)
-
-eval-mcq-order-audioflamingo-no-audio-smoke:
-	uv sync --extra tracking
-	uv run python src/utils/evaluate_mcq_order_audioflamingo.py \
-		--dataset $(MCQ_DATASET) \
-		--audio-root $(AUDIO_ROOT) \
-		--audioflamingo-repo $(AF_HOME) \
-		--model-base $(AF_MODEL_BASE) \
-		--num-gpus $(AF_NUM_GPUS) \
-		--batch-size $(AF_BATCH_SIZE) \
-		--max-new-tokens $(AF_MAX_NEW_TOKENS) \
-		--disable-audio \
-		--limit $(AF_SMOKE_LIMIT) \
-		--results-root $(RESULTS_DIR) \
-		$(WAND_ARGS)
-
-eval-mcq-order-audioflamingo-no-audio-full:
-	uv sync --extra tracking
-	uv run python src/utils/evaluate_mcq_order_audioflamingo.py \
-		--dataset $(MCQ_DATASET) \
-		--audio-root $(AUDIO_ROOT) \
-		--audioflamingo-repo $(AF_HOME) \
-		--model-base $(AF_MODEL_BASE) \
-		--num-gpus $(AF_NUM_GPUS) \
-		--batch-size $(AF_BATCH_SIZE) \
-		--max-new-tokens $(AF_MAX_NEW_TOKENS) \
-		--disable-audio \
-		--results-root $(RESULTS_DIR) \
-		$(WAND_ARGS)
 
 eval-mcq-order-qwen2-audio-smoke:
 	uv sync --extra tracking

@@ -38,53 +38,10 @@ class ModelSpec:
 
 
 TASKS: dict[str, TaskSpec] = {
-    "mcq-order": TaskSpec(
-        key="mcq-order",
-        dataset_default=Path("data/mcq_event_timeline_strong.jsonl"),
-        build_target="build-mcq-dataset",
-    ),
-    "mcq-relation": TaskSpec(
-        key="mcq-relation",
-        dataset_default=Path("data/mcq_relation_timeline_strong.jsonl"),
-        build_target="build-mcq-relation-dataset",
-    ),
     "mcq-safety": TaskSpec(
         key="mcq-safety",
         dataset_default=Path("data/mcq_safety_presence_100.jsonl"),
         build_target="build-mcq-safety-dataset",
-    ),
-    "mcq-synth": TaskSpec(
-        key="mcq-synth",
-        dataset_default=Path("data/mcq_synth_benchmark.jsonl"),
-        build_target="build-mcq-synth-benchmark",
-        requires_download=False,
-        requires_audio_extract=False,
-    ),
-    "mcq-synth-time": TaskSpec(
-        key="mcq-synth-time",
-        dataset_default=Path("data/mcq_synth_time_easy.jsonl"),
-        build_target="build-mcq-synth-time",
-        requires_download=False,
-        requires_audio_extract=False,
-    ),
-    "mcq-synth-pitch": TaskSpec(
-        key="mcq-synth-pitch",
-        dataset_default=Path("data/mcq_synth_pitch_easy.jsonl"),
-        build_target="build-mcq-synth-pitch",
-        requires_download=False,
-        requires_audio_extract=False,
-    ),
-    "mcq-synth-loudness": TaskSpec(
-        key="mcq-synth-loudness",
-        dataset_default=Path("data/mcq_synth_loudness_easy.jsonl"),
-        build_target="build-mcq-synth-loudness",
-        requires_download=False,
-        requires_audio_extract=False,
-    ),
-    "mcq-synth-rhythm": TaskSpec(
-        key="mcq-synth-rhythm",
-        dataset_default=Path("data/mcq_synth_rhythm_easy.jsonl"),
-        build_target="build-mcq-synth-rhythm",
         requires_download=False,
         requires_audio_extract=False,
     ),
@@ -149,26 +106,8 @@ MODELS: dict[str, ModelSpec] = {
         requires_new_transformers=False,
         needs_audioflamingo_repo=False,
     ),
-    "llm-openai": ModelSpec(
-        key="llm-openai",
-        evaluator_script=Path("src/utils/evaluate_mcq_order.py"),
-        needs_audio_root=False,
-        supports_audio_toggle=False,
-        uses_text_evaluator=True,
-        requires_new_transformers=False,
-        needs_audioflamingo_repo=False,
-    ),
     "llm-qwen": ModelSpec(
         key="llm-qwen",
-        evaluator_script=Path("src/utils/evaluate_mcq_order.py"),
-        needs_audio_root=False,
-        supports_audio_toggle=False,
-        uses_text_evaluator=True,
-        requires_new_transformers=False,
-        needs_audioflamingo_repo=False,
-    ),
-    "llm-llama": ModelSpec(
-        key="llm-llama",
         evaluator_script=Path("src/utils/evaluate_mcq_order.py"),
         needs_audio_root=False,
         supports_audio_toggle=False,
@@ -183,24 +122,6 @@ MODELS: dict[str, ModelSpec] = {
         supports_audio_toggle=True,
         uses_text_evaluator=False,
         requires_new_transformers=False,
-        needs_audioflamingo_repo=False,
-    ),
-    "qwen2-5-omni": ModelSpec(
-        key="qwen2-5-omni",
-        evaluator_script=Path("src/utils/evaluate_mcq_order_qwen2_5_omni.py"),
-        needs_audio_root=True,
-        supports_audio_toggle=True,
-        uses_text_evaluator=False,
-        requires_new_transformers=True,
-        needs_audioflamingo_repo=False,
-    ),
-    "voxtral": ModelSpec(
-        key="voxtral",
-        evaluator_script=Path("src/utils/evaluate_mcq_order_voxtral.py"),
-        needs_audio_root=True,
-        supports_audio_toggle=True,
-        uses_text_evaluator=False,
-        requires_new_transformers=True,
         needs_audioflamingo_repo=False,
     ),
     "audioflamingo": ModelSpec(
@@ -225,11 +146,8 @@ def _normalize_task(value: str) -> str:
 
 def _normalize_model(value: str) -> str:
     aliases = {
-        "openai": "llm-openai",
         "qwen": "llm-qwen",
-        "llama": "llm-llama",
         "qwen2_audio": "qwen2-audio",
-        "qwen2-5": "qwen2-5-omni",
         "af3": "audioflamingo",
     }
     key = aliases.get(value.strip().lower(), value.strip().lower())
@@ -288,17 +206,12 @@ def _build_eval_command(
     use_audio: bool,
     audio_root: Path,
     audioflamingo_repo: Path,
-    openai_model: str,
     qwen_model_id: str,
-    llama_model_id: str,
     qwen2_audio_model_id: str,
-    qwen2_5_omni_model_id: str,
-    voxtral_model_id: str,
     audioflamingo_model_base: str,
     batch_size: int,
     max_new_tokens: int,
     num_gpus: int,
-    attn_implementation: str | None,
     local_dtype: str,
     local_device_map: str,
     local_temperature: float,
@@ -331,27 +244,10 @@ def _build_eval_command(
 
     if model.uses_text_evaluator:
         command += ["--model", model.key, "--seed", str(seed)]
-        if model.key == "llm-openai":
-            command += ["--openai-model", openai_model, "--temperature", "0"]
         if model.key == "llm-qwen":
             command += [
                 "--qwen-model-id",
                 qwen_model_id,
-                "--local-dtype",
-                local_dtype,
-                "--local-device-map",
-                local_device_map,
-                "--local-temperature",
-                str(local_temperature),
-                "--local-top-p",
-                str(local_top_p),
-                "--local-max-new-tokens",
-                str(local_max_new_tokens),
-            ]
-        if model.key == "llm-llama":
-            command += [
-                "--llama-model-id",
-                llama_model_id,
                 "--local-dtype",
                 local_dtype,
                 "--local-device-map",
@@ -371,16 +267,15 @@ def _build_eval_command(
         command += ["--audioflamingo-repo", str(audioflamingo_repo), "--num-gpus", str(num_gpus)]
 
     command += ["--batch-size", str(batch_size), "--max-new-tokens", str(max_new_tokens)]
-    if model.key in {"qwen2-audio", "qwen2-5-omni", "voxtral"}:
-        command += ["--dtype", local_dtype, "--device-map", local_device_map]
-    if attn_implementation and model.key in {"qwen2-5-omni", "voxtral"}:
-        command += ["--attn-implementation", attn_implementation]
     if model.key == "qwen2-audio":
-        command += ["--model-base", qwen2_audio_model_id]
-    elif model.key == "qwen2-5-omni":
-        command += ["--model-base", qwen2_5_omni_model_id]
-    elif model.key == "voxtral":
-        command += ["--model-base", voxtral_model_id]
+        command += [
+            "--dtype",
+            local_dtype,
+            "--device-map",
+            local_device_map,
+            "--model-base",
+            qwen2_audio_model_id,
+        ]
     elif model.key == "audioflamingo":
         command += ["--model-base", audioflamingo_model_base]
 
@@ -417,15 +312,14 @@ def _print_plan(
 
 def main(
     task: str = typer.Option(
-        "mcq-order",
+        "mcq-synth-pitch-order-trivial",
         "--task",
         help=(
             "Benchmark task id "
-            "(mcq-order|mcq-relation|mcq-safety|mcq-synth|mcq-synth-time|mcq-synth-pitch|"
-            "mcq-synth-loudness|mcq-synth-rhythm|mcq-synth-pitch-order-trivial|"
-            "mcq-synth-loudness-order-trivial|mcq-synth-duration-order-trivial|"
-            "mcq-synth-count-beeps-trivial|mcq-synth-gap-trivial|"
-            "mcq-synth-pattern-pitch-trivial|mcq-synth-dog-car-order-trivial)."
+            "(mcq-safety|mcq-synth-pitch-order-trivial|mcq-synth-loudness-order-trivial|"
+            "mcq-synth-duration-order-trivial|mcq-synth-count-beeps-trivial|"
+            "mcq-synth-gap-trivial|mcq-synth-pattern-pitch-trivial|"
+            "mcq-synth-dog-car-order-trivial)."
         ),
     ),
     model: str = typer.Option(
@@ -434,7 +328,7 @@ def main(
         "-m",
         help=(
             "Model backend "
-            "(random|llm-openai|llm-qwen|llm-llama|qwen2-audio|qwen2-5-omni|voxtral|audioflamingo)."
+            "(random|llm-qwen|qwen2-audio|audioflamingo)."
         ),
     ),
     samples: int = typer.Option(
@@ -477,35 +371,15 @@ def main(
         path_type=Path,
         help="Path to cloned Audio Flamingo repo.",
     ),
-    openai_model: str = typer.Option(
-        "gpt-4o-mini",
-        "--openai-model",
-        help="OpenAI model for llm-openai backend.",
-    ),
     qwen_model_id: str = typer.Option(
         "Qwen/Qwen2.5-7B-Instruct",
         "--qwen-model-id",
         help="HF model id for llm-qwen backend.",
     ),
-    llama_model_id: str = typer.Option(
-        "meta-llama/Llama-3.1-8B-Instruct",
-        "--llama-model-id",
-        help="HF model id for llm-llama backend.",
-    ),
     qwen2_audio_model_id: str = typer.Option(
         "Qwen/Qwen2-Audio-7B-Instruct",
         "--qwen2-audio-model-id",
         help="HF model id for qwen2-audio backend.",
-    ),
-    qwen2_5_omni_model_id: str = typer.Option(
-        "Qwen/Qwen2.5-Omni-7B",
-        "--qwen2-5-omni-model-id",
-        help="HF model id for qwen2-5-omni backend.",
-    ),
-    voxtral_model_id: str = typer.Option(
-        "mistralai/Voxtral-Mini-3B-2507",
-        "--voxtral-model-id",
-        help="HF model id for voxtral backend.",
     ),
     audioflamingo_model_base: str = typer.Option(
         "nvidia/audio-flamingo-3",
@@ -529,11 +403,6 @@ def main(
         "--num-gpus",
         help="GPU count for Audio Flamingo torchrun path.",
         min=1,
-    ),
-    attn_implementation: str | None = typer.Option(
-        None,
-        "--attn-implementation",
-        help="Optional attention backend for qwen2-5-omni/voxtral.",
     ),
     local_dtype: str = typer.Option(
         "float16",
@@ -638,17 +507,12 @@ def main(
         use_audio=use_audio,
         audio_root=audio_root,
         audioflamingo_repo=audioflamingo_repo,
-        openai_model=openai_model,
         qwen_model_id=qwen_model_id,
-        llama_model_id=llama_model_id,
         qwen2_audio_model_id=qwen2_audio_model_id,
-        qwen2_5_omni_model_id=qwen2_5_omni_model_id,
-        voxtral_model_id=voxtral_model_id,
         audioflamingo_model_base=audioflamingo_model_base,
         batch_size=batch_size,
         max_new_tokens=max_new_tokens,
         num_gpus=num_gpus,
-        attn_implementation=attn_implementation,
         local_dtype=local_dtype,
         local_device_map=local_device_map,
         local_temperature=local_temperature,
